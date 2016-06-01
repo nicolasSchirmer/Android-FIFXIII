@@ -4,106 +4,94 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/background"
-    tools:context=".Layout.MainActivity">
+    tools:context="app.fifxiii.MainActivity"
+    android:background="@color/background">
 
-    <!-- ADD:
-     animação fade in com interpolator de scale do centro
-     animação texto aparecendo apartir do view divisor
-     animação scrollview paralax da imagem
-    -->
-
-    <!-- usar toolbar é mais facil para customizar -->
+    <!-- toolbar com botoes e firulas -->
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         app:contentInsetStart="0dp"
-        style="@style/Toolbar"
+        style="@style/ToolbarTranparent"
         android:elevation="8dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
+        android:gravity="center_vertical"
+        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true">
+        android:layout_alignParentStart="true">
 
-        <ImageView
-            android:id="@+id/content_hamburger"
-            style="@style/ImageView.Hamburger"
-            android:src="@drawable/ic_menu" />
-
-        <fipf.fifpfxy.CustomFonts.OpenSansSBoldFont
-            android:id="@+id/TitleTelaInicial"
-            android:layout_gravity="center"
-            android:text="@string/app_name"
-            android:textColor="@color/white"
-            android:textSize="@dimen/font_size_actionbar"
+        <ImageButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:id="@+id/menuButton"
+            style="@style/ImageView.Hamburger"
+            android:src="@drawable/ic_menu"
+            />
+
+        <!-- plugin interessante pra auto recise de imagens: Android Drawable Importer -->
+
     </android.support.v7.widget.Toolbar>
-    <!-- fim tool bar -->
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/scrollView"
-        android:layout_below="@+id/toolbar">
-
-        <LinearLayout
-            android:layout_below="@+id/toolbar"
-            android:orientation="vertical"
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:weightSum="1">
-
-            <ImageView
-                android:id="@+id/imageView"
-                android:src="@drawable/jato"
-                android:scaleType="centerCrop"
-                android:background="#00ffffff"
-                android:adjustViewBounds="true"
-                android:layout_gravity="center_horizontal"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="320dp" />
+                android:layout_height="match_parent"
+                android:weightSum="2">
 
-            <fipf.fifpfxy.CustomFonts.OpenSansSBoldFont
-                android:id="@+id/title_init_screen"
-                android:gravity="center"
-                android:layout_gravity="center"
-                android:text="@string/title_init_screen"
-                android:textColor="@color/black"
-                android:textSize="18sp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:layout_marginEnd="@dimen/activity_horizontal_margin"
-                android:layout_marginLeft="@dimen/activity_horizontal_margin"
-                android:layout_marginRight="@dimen/activity_horizontal_margin"
-                android:layout_marginStart="@dimen/activity_horizontal_margin"/>
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_weight="1.2"
+                    android:src="@drawable/inicial"
+                    android:scaleType="centerCrop"
+                    android:background="#00ffffff"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+            </LinearLayout>
+        </FrameLayout>
 
-            <View
-                android:layout_margin="20dp"
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:alpha="0.5"
-                android:background="@color/light_gray">
-            </View>
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="2">
 
-            <!-- mudar o text -->
-            <fipf.fifpfxy.CustomFonts.OpenSansRegFont
-                android:id="@+id/text_init_screen"
-                android:gravity="center"
-                android:layout_gravity="center"
-                android:text="@string/lorem"
-                android:textColor="@color/black"
-                android:textSize="18sp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/activity_horizontal_margin"
-                android:layout_marginLeft="@dimen/activity_horizontal_margin"
-                android:layout_marginRight="@dimen/activity_horizontal_margin"
-                android:layout_marginStart="@dimen/activity_horizontal_margin"/>
+                    <ImageView
+                        android:id="@+id/imageGlass"
+                        android:layout_weight="0.8"
+                        android:src="@drawable/glass"
+                        android:scaleType="centerCrop"
+                        android:background="#00ffffff"
+                        android:adjustViewBounds="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp" />
 
-        </LinearLayout>
-    </ScrollView>
+                    <app.fifxiii.CustomFonts.OpenSansRegFont
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:background="@color/background"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:text="@string/lorem"
+                        android:layout_weight="1.2"/>
 
+                </LinearLayout>
+            </ScrollView>
+        </FrameLayout>
+    </FrameLayout>
 </RelativeLayout>
