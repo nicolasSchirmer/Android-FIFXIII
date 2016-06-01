@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background"
+    tools:context=".Layout.MainActivity">
+
+    <!-- ADD:
+     animação fade in com interpolator de scale do centro
+     animação texto aparecendo apartir do view divisor
+     animação scrollview paralax da imagem
+    -->
+
+    <!-- usar toolbar é mais facil para customizar -->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:contentInsetStart="0dp"
+        style="@style/Toolbar"
+        android:elevation="8dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/content_hamburger"
+            style="@style/ImageView.Hamburger"
+            android:src="@drawable/ic_menu" />
+
+        <fipf.fifpfxy.CustomFonts.OpenSansSBoldFont
+            android:id="@+id/TitleTelaInicial"
+            android:layout_gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_actionbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </android.support.v7.widget.Toolbar>
+    <!-- fim tool bar -->
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_below="@+id/toolbar"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:src="@drawable/jato"
+                android:scaleType="centerCrop"
+                android:background="#00ffffff"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="320dp" />
+
+            <fipf.fifpfxy.CustomFonts.OpenSansSBoldFont
+                android:id="@+id/title_init_screen"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="@string/title_init_screen"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"/>
+
+            <View
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:alpha="0.5"
+                android:background="@color/light_gray">
+            </View>
+
+            <!-- mudar o text -->
+            <fipf.fifpfxy.CustomFonts.OpenSansRegFont
+                android:id="@+id/text_init_screen"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="@string/lorem"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
