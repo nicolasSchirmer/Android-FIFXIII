@@ -4,6 +4,8 @@ import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewTreeObserver;
 import android.widget.ImageButton;
@@ -19,17 +21,26 @@ public class MainActivity extends AppCompatActivity {
     ScrollView scrollView;
     ImageView glassView;
     Toolbar toolbar;
+    int screenWidth, screenHeight;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        lateralMenu();
 
+        getScreenSize();
+        slidingMenu();
         setViews();
     }
 
-    private void lateralMenu(){
+    private void getScreenSize(){
+        DisplayMetrics displaymetrics = new DisplayMetrics();
+        this.getWindowManager().getDefaultDisplay().getMetrics(displaymetrics);
+        screenWidth = displaymetrics.widthPixels;
+        screenHeight = displaymetrics.heightPixels;
+    }
+
+    private void slidingMenu(){
         menu = new SlidingMenu(this);
         menu.setMode(SlidingMenu.LEFT);
         menu.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
@@ -58,8 +69,9 @@ public class MainActivity extends AppCompatActivity {
                 public void onScrollChanged() {
                     int scrollY = scrollView.getScrollY();
                     if(scrollY > 0){
-                        glassView.setAlpha(scrollY/2000f);
-                        if(scrollY/4 < 255) toolbar.setBackgroundColor(Color.argb(scrollY/4, 200, 160, 50));
+                        glassView.setAlpha((float) scrollY /(screenHeight + 250));
+                        int alpha = scrollY/((screenHeight)/402);
+                        if(alpha < 255) toolbar.setBackgroundColor(Color.argb(alpha, 200, 160, 50));
                         else toolbar.setBackgroundColor(Color.argb(255, 200, 160, 50));
                     } else {
                         glassView.setAlpha(0f);
