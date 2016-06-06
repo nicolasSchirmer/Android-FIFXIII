@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">FIFXIII</string>
 
-
+    <!-- INIT SCREEN -->
     <string name="title_init_screen">Festival Internacional de Folclore de Passo Fundo</string>
-    <string name="lorem">
+    <string name="text_init_screen">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta eros quis leo iaculis,
         et pharetra mauris aliquet. Mauris rhoncus, augue at tincidunt auctor, ex nulla commodo quam,
         vitae tincidunt felis elit ut lectus. Vestibulum ut odio justo. Quisque lacus nunc, aliquam
@@ -21,4 +21,13 @@
         quis sapien fermentum enim efficitur cursus id vitae dolor. Nam velit nisi, interdum quis
         interdum eget, gravida id erat.
     </string>
+
+    <!-- MENU -->
+    <string name="button_calendar">AGENDA</string>
+    <string name="button_groups">GRUPOS</string>
+    <string name="button_info">INFORMAÇÕES</string>
+    <string name="button_sponser">PATROCINADORES</string>
+    <string name="button_dev">DESENVOLVEDORES</string>
+    <string name="button_config">OPÇÕES</string>
+
 </resources>

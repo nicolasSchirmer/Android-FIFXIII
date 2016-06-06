@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="app.fifxiii.MainActivity"
-    android:background="@color/background">
+    android:background="@color/background"
+    android:elevation="16dp">
 
     <!-- toolbar com botoes e firulas -->
     <android.support.v7.widget.Toolbar
@@ -37,6 +39,7 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="match_parent"
@@ -46,7 +49,7 @@
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_weight="1.2"
-                    android:src="@drawable/inicial"
+                    android:src="@drawable/inicial2"
                     android:scaleType="centerCrop"
                     android:background="#00ffffff"
                     android:adjustViewBounds="true"
@@ -82,6 +85,35 @@
                         android:layout_width="match_parent"
                         android:layout_height="0dp" />
 
+                    <app.fifxiii.CustomFonts.OpenSansSBoldFont
+                        android:background="@color/background"
+                        android:id="@+id/title_init_screen"
+                        android:gravity="center"
+                        android:text="@string/title_init_screen"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/activity_horizontal_margin"
+                        android:paddingEnd="@dimen/activity_horizontal_margin"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin"
+                        android:paddingStart="@dimen/activity_horizontal_margin" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background">
+
+                        <View
+                            android:layout_margin="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:alpha="0.5"
+                            android:background="@color/light_gray">
+                        </View>
+
+                    </LinearLayout>
+
                     <app.fifxiii.CustomFonts.OpenSansRegFont
                         android:gravity="center"
                         android:padding="8dp"
@@ -89,7 +121,7 @@
                         android:textSize="18sp"
                         android:layout_width="wrap_content"
                         android:layout_height="0dp"
-                        android:text="@string/lorem"
+                        android:text="@string/text_init_screen"
                         android:layout_weight="1"/>
 
                 </LinearLayout>
