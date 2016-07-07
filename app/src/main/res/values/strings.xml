@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">FIFXIII</string>
 
+    <!-- IMAGE DESCRIPTIONS
+     https://developer.android.com/guide/topics/ui/accessibility/index.html -->
+    <string name="ham_menu">menu</string>
+    <string name="init_img">XIII festival internacional de folclore</string>
+    <string name="home_menu">Página inicial</string>
+
     <!-- INIT SCREEN -->
     <string name="title_init_screen">Festival Internacional de Folclore de Passo Fundo</string>
     <string name="text_init_screen">
@@ -11,23 +17,40 @@
         cursus ut. Nunc vel sem euismod, ultricies sem in, tincidunt massa. Donec est lorem, elementum
         eget varius nec, mollis in ante. Nulla bibendum, sapien non ornare aliquam, orci tellus
         imperdiet leo, nec fringilla arcu purus vitae risus. Nunc cursus, ex sit amet venenatis
-        volutpat, purus ligula semper purus, convallis sagittis diam mi vitae velit.
+        volutpat, purus ligula semper purus, convallis sagittis diam mi vitae velit. \n\n
 
         Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-        Pellentesque condimentum quam fermentum nisi vestibulum pharetra. Nulla quis ipsum maximus
-        dolor pellentesque mollis. Vestibulum sit amet mattis nisi. Maecenas sed placerat nisi. Sed
-        sodales turpis tristique tincidunt porttitor. Etiam condimentum, dolor blandit hendrerit
-        euismod, enim nisi volutpat eros, et gravida leo eros eu ligula. Suspendisse potenti. Etiam
-        quis sapien fermentum enim efficitur cursus id vitae dolor. Nam velit nisi, interdum quis
-        interdum eget, gravida id erat.
     </string>
 
     <!-- MENU -->
-    <string name="button_calendar">AGENDA</string>
+    <string name="button_schedule">AGENDA</string>
     <string name="button_groups">GRUPOS</string>
     <string name="button_info">INFORMAÇÕES</string>
     <string name="button_sponser">PATROCINADORES</string>
     <string name="button_dev">DESENVOLVEDORES</string>
     <string name="button_config">OPÇÕES</string>
+
+
+    <string name="title_ticket">Ingressos</string>
+    <string name="text_tickets">
+        Abertura dia 12/08/16 e encerramento dia 20/08/16 \n
+    - Inteiro: R$16,00 e meio: R$8,00. (meio ingresso para estudantes com carteira de estudante e pessoas acima de 60 anos com identidade conforme Leis municipais 2.946 e 2931). \n
+
+    Nas outras noites de 13 a 19/08/16 \n
+    - Inteiro: R$10,00 e meio: R$5,00, e terão direito, a meio ingresso: estudantes, pessoas acima de 60 anos e trabalhadores. \n
+
+    Venda de ingressos à partir do dia 08.08.16 – das 13h até 19h, no Parque da Gare, Casarão da Cultura. \n
+    Compras à distância - Fone: (0xx54) 9101 8100 ou (0xx54) 3311 1623 – com Iracema \n
+
+    Observação: Para os espetáculos noturnos de 13 a 19/08/16, quem comprar ingressos antecipados até 1 dia antes do espetáculo, terão direito a meio ingresso.
+    </string>
+
+    <string name="phone">+55 54 3045 1415 \n +55 54 9981 1893</string>
+
+    <string name="email">cioffrs@annex.com.br</string>
+
+    <string name="place">Associação de Organizações de Festivais Folclóricos do Rio Grande do Sul\n
+      Rua General Neto, 145/603 - Passo Fundo / RS\n
+      CEP: 99010-020</string>
 
 </resources>

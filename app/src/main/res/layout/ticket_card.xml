@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:weightSum="5"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_corner">
+
+
+    <app.fifxiii.CustomFonts.CanaroFont
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/title_ticket"
+        android:layout_weight="0.6"
+        android:id="@+id/textView"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:textColor="@color/whitePure"
+        android:paddingTop="4dp"
+        android:background="@drawable/rounded_corner_top_primary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:background="@color/colorPrimary"
+                    android:layout_weight="1"></View>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"></View>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_gravity="center"
+                android:background="@drawable/layout_rounded"
+                android:src="@drawable/ic_ticket"
+                android:padding="30dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageView" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:gravity="center"
+        android:layout_margin="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.4"
+        android:textSize="13sp"
+        android:text="@string/text_tickets"
+        android:id="@+id/textView2"
+        android:paddingBottom="4dp"/>
+
+</merge>
