@@ -13,7 +13,7 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ScrollView;
 
-import app.fifxiii.AnimationSet;
+import app.fifxiii.AnimationAdapter;
 import app.fifxiii.MenuAdapter;
 import app.fifxiii.R;
 import mehdi.sakout.fancybuttons.FancyButton;
@@ -80,13 +80,13 @@ public class MainActivity extends AppCompatActivity {
 
     private void setAnimView(){
         final Context context = getBaseContext();
-        AnimationSet anim1 = new AnimationSet(new AnimationSet.ListenerAnim() {
+        AnimationAdapter anim1 = new AnimationAdapter(new AnimationAdapter.ListenerAnim() {
             @Override
             public void animationIsOver(boolean over) {
-                AnimationSet anim = new AnimationSet(new AnimationSet.ListenerAnim() {
+                AnimationAdapter anim = new AnimationAdapter(new AnimationAdapter.ListenerAnim() {
                     @Override
                     public void animationIsOver(boolean over) {
-                        AnimationSet anim = new AnimationSet(null);
+                        AnimationAdapter anim = new AnimationAdapter(null);
                         anim.growFromTop(context, findViewById(R.id.text_init));
                     }
                 });

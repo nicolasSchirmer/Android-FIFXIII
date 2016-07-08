@@ -1,9 +1,9 @@
 package app.fifxiii.Activitys;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -15,7 +15,10 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 
-import app.fifxiii.AnimationSet;
+import java.net.URISyntaxException;
+import java.util.Locale;
+
+import app.fifxiii.AnimationAdapter;
 import app.fifxiii.MenuAdapter;
 import app.fifxiii.R;
 import mehdi.sakout.fancybuttons.FancyButton;
@@ -35,18 +38,38 @@ public class InfoActivity extends AppCompatActivity {
         setScroll();
     }
 
+
+    //TODO dialogs
+    public void phoneClick(View view){
+    }
+
+    public void emailClick(View view){
+        try {
+            Intent intent = Intent.parseUri("mailto:cioffrs@annex.com.br", Intent.URI_INTENT_SCHEME);
+            startActivity(intent);
+
+        } catch (URISyntaxException e){ e.printStackTrace(); }
+    }
+
+    public void placeClick(View view){
+        String uri = String.format(Locale.ENGLISH, "geo:%f,%f?q=145+General+Neto", -28.2640927, -52.4083767);
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
+        startActivity(intent);
+    }
+    //
+
     private void setAnimView(){
         final Context context = getBaseContext();
-        AnimationSet anim1 = new AnimationSet(new AnimationSet.ListenerAnim() {
+        AnimationAdapter anim1 = new AnimationAdapter(new AnimationAdapter.ListenerAnim() {
             @Override
             public void animationIsOver(boolean over) {
-                AnimationSet anim = new AnimationSet(new AnimationSet.ListenerAnim() {
+                AnimationAdapter anim = new AnimationAdapter(new AnimationAdapter.ListenerAnim() {
                     @Override
                     public void animationIsOver(boolean over) {
-                        AnimationSet anim = new AnimationSet(new AnimationSet.ListenerAnim() {
+                        AnimationAdapter anim = new AnimationAdapter(new AnimationAdapter.ListenerAnim() {
                             @Override
                             public void animationIsOver(boolean over) {
-                                AnimationSet anim = new AnimationSet(null);
+                                AnimationAdapter anim = new AnimationAdapter(null);
                                 anim.growFromBotton(context, findViewById(R.id.place_card));
                             }});
                         anim.slideFromRight(context, findViewById(R.id.email_card));
@@ -77,6 +100,7 @@ public class InfoActivity extends AppCompatActivity {
 
                     // tentativa falha de melhorar performance, deixou s5 mais lento
                     //if(scrollY > oldScrollY +8 || scrollY < oldScrollY -8) {
+                    scrollY /= 3;
                     if (scrollY > 0) {
                         if(scrollY < 255){
                             toolbar.setBackgroundColor(Color.argb(scrollY, 200, 160, 50));
