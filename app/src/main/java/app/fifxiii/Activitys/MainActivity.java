@@ -14,18 +14,18 @@ import android.widget.ImageView;
 import android.widget.ScrollView;
 
 import app.fifxiii.AnimationAdapter;
-import app.fifxiii.MenuAdapter;
+import app.fifxiii.Menu.MenuAdapter;
 import app.fifxiii.R;
 import mehdi.sakout.fancybuttons.FancyButton;
 
 public class MainActivity extends AppCompatActivity {
 
+    MenuAdapter menuAdapter;
     ImageButton hamBtn;
     ScrollView scrollView;
     ImageView glassView;
     Toolbar toolbar;
     int screenWidth, screenHeight, scrollY;
-    MenuAdapter menuAdapter;
     //int oldScrollY;
 
     @Override
@@ -150,7 +150,7 @@ public class MainActivity extends AppCompatActivity {
             sponsor.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    changeActivity(MainActivity.class);
+                    changeActivity(Sponsoractivity.class);
                 }
             });
         }
@@ -169,7 +169,5 @@ public class MainActivity extends AppCompatActivity {
     private void changeActivity(Class mClass){
         Intent intent = new Intent(this, mClass);
         startActivity(intent);
-
-        finish();
     }
 }

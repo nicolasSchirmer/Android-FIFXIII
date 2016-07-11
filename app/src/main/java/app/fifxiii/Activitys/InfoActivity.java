@@ -12,14 +12,13 @@ import android.view.View;
 import android.view.ViewTreeObserver;
 import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.ScrollView;
 
 import java.net.URISyntaxException;
 import java.util.Locale;
 
 import app.fifxiii.AnimationAdapter;
-import app.fifxiii.MenuAdapter;
+import app.fifxiii.Menu.MenuAdapter;
 import app.fifxiii.R;
 import mehdi.sakout.fancybuttons.FancyButton;
 
@@ -52,7 +51,7 @@ public class InfoActivity extends AppCompatActivity {
     }
 
     public void placeClick(View view){
-        String uri = String.format(Locale.ENGLISH, "geo:%f,%f?q=145+General+Neto", -28.2640927, -52.4083767);
+        String uri = String.format(Locale.ENGLISH, "geo:%f,%f?q=General+Neto+,+ +145", -28.2640927, -52.4083767);
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
         startActivity(intent);
     }
@@ -174,7 +173,7 @@ public class InfoActivity extends AppCompatActivity {
             sponsor.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    changeActivity(MainActivity.class);
+                    changeActivity(Sponsoractivity.class);
                 }
             });
         }
@@ -193,7 +192,5 @@ public class InfoActivity extends AppCompatActivity {
     private void changeActivity(Class mClass){
         Intent intent = new Intent(this, mClass);
         startActivity(intent);
-
-        finish();
     }
 }

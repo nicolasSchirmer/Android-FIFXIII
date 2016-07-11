@@ -49,8 +49,12 @@
 
     <string name="email">cioffrs@annex.com.br</string>
 
-    <string name="place">Associação de Organizações de Festivais Folclóricos do Rio Grande do Sul\n
+    <string name="place">
+        Associação de Organizações de Festivais Folclóricos do Rio Grande do Sul\n
       Rua General Neto, 145/603 - Passo Fundo / RS\n
-      CEP: 99010-020</string>
+      CEP: 99010-020
+    </string>
+
+    <string name="loading">Carregando</string>
 
 </resources>
