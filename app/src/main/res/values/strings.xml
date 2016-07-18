@@ -7,19 +7,17 @@
     <string name="init_img">XIII festival internacional de folclore</string>
     <string name="home_menu">Página inicial</string>
 
+    <string name="loading">Carregando</string>
+
     <!-- INIT SCREEN -->
     <string name="title_init_screen">Festival Internacional de Folclore de Passo Fundo</string>
     <string name="text_init_screen">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta eros quis leo iaculis,
-        et pharetra mauris aliquet. Mauris rhoncus, augue at tincidunt auctor, ex nulla commodo quam,
-        vitae tincidunt felis elit ut lectus. Vestibulum ut odio justo. Quisque lacus nunc, aliquam
-        in tellus quis, luctus commodo metus. Vestibulum suscipit sollicitudin ex, vel interdum sapien
-        cursus ut. Nunc vel sem euismod, ultricies sem in, tincidunt massa. Donec est lorem, elementum
-        eget varius nec, mollis in ante. Nulla bibendum, sapien non ornare aliquam, orci tellus
-        imperdiet leo, nec fringilla arcu purus vitae risus. Nunc cursus, ex sit amet venenatis
-        volutpat, purus ligula semper purus, convallis sagittis diam mi vitae velit. \n\n
-
-        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        OBS. Esse aplicativo ainda passará por atualizações melhorando sua performance, adicionando novas telas
+        e funcionalidades.\n\n
+        A Associação de Organizações de Festivais Folclóricos do Rio Grande do Sul – AOFFERS,
+        é uma ONG sem fins lucrativos, com sede na cidade de Passo Fundo. A AOFFERS, com o apoio
+        dos Poderes Públicos, entidades e voluntários, é a planejadora, organizadora e executora
+        do Festival Internacional de Folclore de Passo Fundo.
     </string>
 
     <!-- MENU -->
@@ -31,6 +29,7 @@
     <string name="button_config">OPÇÕES</string>
 
 
+    <!-- INFO -->
     <string name="title_ticket">Ingressos</string>
     <string name="text_tickets">
         Abertura dia 12/08/16 e encerramento dia 20/08/16 \n
@@ -46,15 +45,73 @@
     </string>
 
     <string name="phone">+55 54 3045 1415 \n +55 54 9981 1893</string>
-
     <string name="email">cioffrs@annex.com.br</string>
-
     <string name="place">
         Associação de Organizações de Festivais Folclóricos do Rio Grande do Sul\n
       Rua General Neto, 145/603 - Passo Fundo / RS\n
       CEP: 99010-020
     </string>
 
-    <string name="loading">Carregando</string>
+
+    <string name="title_promo">Promoção</string>
+
+    <!-- Groups -->
+    <string name="g0name"> </string>
+    <string name="g0country">Argentina</string>
+
+    <string name="g1name">Royal Artgroup Alkuone</string>
+    <string name="g1country">Bélgica</string>
+
+    <string name="g2name">Estúdio de Dança e Arte Expressões - EDAE</string>
+    <string name="g2country">Bolívia</string>
+
+    <string name="g3name">Tumu Henua</string>
+    <string name="g3country">Chile</string>
+
+    <string name="g4name">Ballet Folclórico Internacional Sonia Gómes</string>
+    <string name="g4country">Colômbia</string>
+
+    <string name="g5name"> </string>
+    <string name="g5country">Estados Unidos da América</string>
+
+    <string name="g6name">Grupo Folclórico Brasil Central (GFBC)</string>
+    <string name="g6country">Goiás</string>
+
+    <string name="g7name">Inetnon Gefpago</string>
+    <string name="g7country">Guam</string>
+
+    <string name="g8name">Mārupieši VPDK</string>
+    <string name="g8country">Letônia</string>
+
+    <string name="g9name">Orquestra Violas de São Gonçalo</string>
+    <string name="g9country">Mato Grosso do Sul</string>
+
+    <string name="g10name">Grupo Ballet Folklorico Fiesta Mexicana</string>
+    <string name="g10country">México</string>
+
+    <string name="g11name">Passos Lejanos</string>
+    <string name="g11country">Peru</string>
+
+    <string name="g12name"> </string>
+    <string name="g12country">Senegal</string>
+
+    <string name="g13name">CIA de Dança Popular Danzamérica</string>
+    <string name="g13country">Uruguai</string>
+
+
+    <!-- AGENDA -->
+
+    <string name="text_agenda">
+     Programação básica:\n
+        De 12 a 20/08/16\nEspetáculos noturnos abertos à comunidade, 19h e 30min.\n
+        De 15 a 19/08/16\nEspetáculos diurnos para estudantes e comunidade\n de manhã às 9:00h e à tarde às 14:00h.\n\n
+        Programação Gratuita:\n
+        \nOficinas de danças no Bella Città\npraça de alimentação 2º andar\n De 15 a 19.08.16 as 14h, 15h e 16h.\n
+        \nOficinas de Conversação no Bella Città\npraça de alimentação 3º andar às 14h , 15h e 16h.\n
+        \nDias 11 e 12 e de 15 a 19.08.16\nDesfiles na Rua Moron, entre a Fagundes dos Reis Cel. Chicuta, às 17h e 30min.\n
+        \nDias 13 e 20.08.16\nDesfiles na Rua Moron, entre Fagundes dos Reis e Cel Chicuta, às 10h e 30min.\n
+        \nMissa folclórica na Catedral Nossa Senhora Aparecida\nDia 14.08.2016 às 17h e 30min.\n
+        \nTodos os dias do festival as 17h e 30min haverão espetáculos nos patrocinadores\n
+    </string>
 
 </resources>

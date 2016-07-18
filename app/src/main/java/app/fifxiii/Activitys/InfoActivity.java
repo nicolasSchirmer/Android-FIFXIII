@@ -136,7 +136,7 @@ public class InfoActivity extends AppCompatActivity {
 
     //TODO make this method global
     private void setBts(){
-        final FancyButton home, schedule, groups, sponsor, dev;
+        final FancyButton home, schedule, groups;
 
         home = (FancyButton) findViewById(R.id.homeBtn);
         if(home != null) {
@@ -153,7 +153,7 @@ public class InfoActivity extends AppCompatActivity {
             schedule.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    changeActivity(MainActivity.class);
+                    changeActivity(AgendaActivity1.class);
                 }
             });
         }
@@ -163,27 +163,7 @@ public class InfoActivity extends AppCompatActivity {
             groups.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    changeActivity(MainActivity.class);
-                }
-            });
-        }
-
-        sponsor = (FancyButton) findViewById(R.id.sponserBtn);
-        if(sponsor != null) {
-            sponsor.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    changeActivity(Sponsoractivity.class);
-                }
-            });
-        }
-
-        dev = (FancyButton) findViewById(R.id.devBtn);
-        if(dev != null) {
-            dev.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    changeActivity(MainActivity.class);
+                    changeActivity(ListGroupActivity.class);
                 }
             });
         }
@@ -192,5 +172,13 @@ public class InfoActivity extends AppCompatActivity {
     private void changeActivity(Class mClass){
         Intent intent = new Intent(this, mClass);
         startActivity(intent);
+        onPause();
+    }
+
+    @Override
+    public void onPause(){
+        super.onPause();
+
+        finish();
     }
 }

@@ -8,7 +8,8 @@
 
     <color name="transparent">#00000000</color>
 
-    <color name="colorPrimaryFaded">#80cda630</color>
+    <color name="colorPrimaryFaded">#17797773</color>
+    <color name="colorPrimaryFaded1">#80cda630</color>
 
 
     <color name="background">#edf2ff</color>

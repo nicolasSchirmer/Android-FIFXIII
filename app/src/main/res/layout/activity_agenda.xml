@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Activitys.AgendaActivity1"
+    android:background="@color/white"
+    android:elevation="16dp">
+
+
+        <!-- toolbar com botoes e firulas -->
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            app:contentInsetStart="0dp"
+            style="@style/ToolbarTranparent"
+            android:elevation="8dp"
+            android:gravity="center_vertical"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <ImageButton
+                android:contentDescription="@string/ham_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hamButton"
+                style="@style/ImageView.Hamburger"
+                android:src="@drawable/ic_menu_primary"
+                />
+        </android.support.v7.widget.Toolbar>
+
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollViewag"
+            android:layout_below="@+id/toolbar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:id="@+id/lay_agenda_card"
+                    android:visibility="visible"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_corner"
+                    android:elevation="5dp"
+                    android:layout_margin="@dimen/activity_horizontal_margin">
+
+                    <include layout="@layout/agenda_card"
+                        android:background="@drawable/rounded_corner"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/ticket_size">
+                    </include>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+
+
+</RelativeLayout>

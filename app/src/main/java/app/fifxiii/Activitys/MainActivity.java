@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
 
     //TODO make this method global
     private void setBts(){
-        final FancyButton schedule, groups, info, sponsor, dev;
+        final FancyButton schedule, groups, info;
 
 
         schedule = (FancyButton) findViewById(R.id.scheduleBtn);
@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
             schedule.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    changeActivity(MainActivity.class);
+                    changeActivity(AgendaActivity1.class);
                 }
             });
         }
@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
             groups.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    changeActivity(MainActivity.class);
+                    changeActivity(ListGroupActivity.class);
                 }
             });
         }
@@ -144,30 +144,18 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
         }
-
-        sponsor = (FancyButton) findViewById(R.id.sponserBtn);
-        if(sponsor != null) {
-            sponsor.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    changeActivity(Sponsoractivity.class);
-                }
-            });
-        }
-
-        dev = (FancyButton) findViewById(R.id.devBtn);
-        if(dev != null) {
-            dev.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    changeActivity(MainActivity.class);
-                }
-            });
-        }
     }
 
     private void changeActivity(Class mClass){
         Intent intent = new Intent(this, mClass);
         startActivity(intent);
+        onPause();
+    }
+
+    @Override
+    public void onPause(){
+        super.onPause();
+
+        finish();
     }
 }

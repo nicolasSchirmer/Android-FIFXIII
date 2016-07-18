@@ -27,11 +27,7 @@ public class AnimationAdapter {
 
     public void fadeIn(Context context, View view){ animate(context, view, R.anim.fade_in); }
 
-    public void fadeOut(Context context, View view) { animate(context, view, R.anim.fade_out); }
-
-    public void upSlide(Context context, View view){
-        animate(context, view, R.anim.slide_cimabaixo);
-    }
+    public void fadeInFast(Context context, View view){ animate(context, view, R.anim.fade_in_fast); }
 
     public void growFromBotton(Context context, View view){
         animate(context, view, R.anim.cres_gradual_baixocima);
@@ -41,27 +37,11 @@ public class AnimationAdapter {
         animate(context, view, R.anim.cres_gradual_cimabaixo);
     }
 
-    public void growFromLeft(Context context, View view){
-        animate(context, view, R.anim.cres_gradual_esqdir);
-    }
-
-    public void growFromRight(Context context, View view){
-        animate(context, view, R.anim.cres_gradual_diresq);
-    }
-
-    public void rotateClockWise(Context context, View view){
-        animate(context, view, R.anim.rotacao_horaria);
-    }
-
     public void slideFromLeft(Context context, View view){
         animate(context, view, R.anim.slide_esqdir);
     }
 
     public void slideFromRight(Context context, View view){
-        animate(context, view, R.anim.slide_diresq);
-    }
-
-    public void buttonEffect(Context context, View view){
         animate(context, view, R.anim.slide_diresq);
     }
 

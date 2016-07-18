@@ -21,7 +21,7 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingStart="@dimen/activity_horizontal_margin" />
 
-    <include layout="@layout/line_main"
+    <include layout="@layout/line"
         android:background="@color/background">
     </include>
 
