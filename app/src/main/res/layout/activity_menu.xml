@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@color/colorPrimary">
+
+    <!--TO-DO: set dimenstions to different screen sizes-->
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="25dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--font awesome como icon http://fontawesome.io/cheatsheet/ -->
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/homeBtn"
+            android:contentDescription="@string/home_menu"
+            android:onClick="homeClick"
+            android:padding="15dp"
+            fancy:fb_defaultColor="@color/colorPrimary"
+            fancy:fb_focusColor="@color/colorPrimaryDark"
+            fancy:fb_fontIconResource="&#xf015;"
+            fancy:fb_borderColor="@color/white"
+            fancy:fb_borderWidth="1dp"
+            fancy:fb_radius="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_btn_menu"/>
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/scheduleBtn"
+            android:onClick="scheduleClick"
+            android:padding="15dp"
+            fancy:fb_defaultColor="@color/transparent"
+            fancy:fb_focusColor="@color/colorPrimaryDark"
+            fancy:fb_iconPaddingRight="20dp"
+            fancy:fb_fontIconResource="&#xf073;"
+            fancy:fb_borderColor="@color/white"
+            fancy:fb_borderWidth="1dp"
+            fancy:fb_iconPosition="left"
+            fancy:fb_radius="30dp"
+            fancy:fb_text="@string/button_schedule"
+            fancy:fb_textSize="15sp"
+            fancy:fb_textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_btn_menu"/>
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/groupsBtn"
+            android:onClick="groupClick"
+            android:padding="15dp"
+            fancy:fb_defaultColor="@color/transparent"
+            fancy:fb_focusColor="@color/colorPrimaryDark"
+            fancy:fb_iconPaddingRight="20dp"
+            fancy:fb_fontIconResource="&#xf0ac;"
+            fancy:fb_borderColor="@color/white"
+            fancy:fb_borderWidth="1dp"
+            fancy:fb_iconPosition="left"
+            fancy:fb_radius="30dp"
+            fancy:fb_text="@string/button_groups"
+            fancy:fb_textSize="15sp"
+            fancy:fb_textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_btn_menu"/>
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/infoBtn"
+            android:onClick="infoClick"
+            android:padding="15dp"
+            fancy:fb_defaultColor="@color/transparent"
+            fancy:fb_focusColor="@color/colorPrimaryDark"
+            fancy:fb_iconPaddingRight="20dp"
+            fancy:fb_fontIconResource="&#xf05a;"
+            fancy:fb_borderColor="@color/white"
+            fancy:fb_borderWidth="1dp"
+            fancy:fb_iconPosition="left"
+            fancy:fb_radius="30dp"
+            fancy:fb_text="@string/button_info"
+            fancy:fb_textSize="15sp"
+            fancy:fb_textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_btn_menu"/>
+
+    </LinearLayout>
+
+</ScrollView>
+

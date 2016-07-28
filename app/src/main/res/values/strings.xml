@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Festival PF XIII</string>
+
+    <!-- IMAGE DESCRIPTIONS
+     https://developer.android.com/guide/topics/ui/accessibility/index.html -->
+    <string name="ham_menu">menu</string>
+    <string name="init_img">XIII festival internacional de folclore</string>
+    <string name="home_menu">Página inicial</string>
+    <string name="flag">Bandeira</string>
+    <string name="sponsor_desc">Patrocinadores</string>
+
+    <!-- MENU -->
+    <string name="button_schedule">AGENDA</string>
+    <string name="button_groups">GRUPOS</string>
+    <string name="button_info">INFORMAÇÕES</string>
+    <string name="button_sponser">PATROCINADORES</string>
+    <string name="button_dev">DESENVOLVEDORES</string>
+    <string name="button_config">OPÇÕES</string>
+
+    <!-- INIT SCREEN -->
+    <string name="title_init_screen">Festival Internacional de Folclore de Passo Fundo</string>
+    <string name="text_init_screen">
+        A Associação de Organizações de Festivais Folclóricos do Rio Grande do Sul – AOFFERS,
+        é uma ONG sem fins lucrativos, com sede na cidade de Passo Fundo. A AOFFERS, com o apoio
+        dos Poderes Públicos, entidades e voluntários, é a planejadora, organizadora e executora
+        do Festival Internacional de Folclore de Passo Fundo.
+    </string>
+
+
+</resources>
