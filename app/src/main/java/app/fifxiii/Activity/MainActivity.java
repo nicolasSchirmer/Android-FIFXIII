@@ -24,7 +24,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        /** -- COPY THIS -- **/
         menu = new Menu(this);
+        /** -- AND DOWN THERE -- **/
+
         setScrollAnimation();
     }
 
@@ -56,6 +59,8 @@ public class MainActivity extends AppCompatActivity {
                 }});}
     }
 
+    /** ----  COPY IT ALL! ---- **/
+
     public void hmbClick(View view){
         menu.showMenu();
     }
@@ -79,6 +84,7 @@ public class MainActivity extends AppCompatActivity {
     private void prepareChangeActivity(final Class mClass){
         menu.close();
 
+        // time for the close animation
         new Handler().postDelayed(new Runnable() {
             public void run() {
                 changeActivity(mClass);
@@ -95,6 +101,7 @@ public class MainActivity extends AppCompatActivity {
     public void onBackPressed(){
         if(menu.isOpen()) menu.close();
 
+        // time for the close animation
         new Handler().postDelayed(new Runnable() {
             public void run() {
                 finish();
@@ -102,5 +109,6 @@ public class MainActivity extends AppCompatActivity {
         }, 350);
     }
 
+    /** ---- OK! ENOUGH OF COPY PASTE ---- **/
 
 }

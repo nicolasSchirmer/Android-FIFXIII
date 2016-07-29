@@ -3,6 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="app.fifxiii">
 
+    <!-- permissão para acessar a internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- permissão para acessar o estdo da conexao com a internet -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- permissao para acessar ligação -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher_ff"
@@ -39,7 +48,13 @@
             android:name=".Activity.InfoActivity"
             android:launchMode="singleTask"
             android:screenOrientation="sensorPortrait" />
-        <activity android:name=".Activity.ListGroupActivity"></activity>
+
+        <!-- LIST GROUP -->
+        <activity
+            android:name=".Activity.ListGroupActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensorPortrait" />
+
     </application>
 
 </manifest>

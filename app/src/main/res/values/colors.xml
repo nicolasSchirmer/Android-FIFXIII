@@ -14,6 +14,7 @@
     <color name="blackPure">#000000</color>
     <color name="black">#131313</color>
 
+    <color name="gray_transparent">#17797773</color>
     <color name="gray">#515151</color>
     <color name="light_gray">#ababab</color>
 </resources>

@@ -19,11 +19,14 @@ public class ScheduleActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_schedule);
 
+        /** -- COPY THIS -- **/
         menu = new Menu(this);
+        /** -- AND DOWN THERE -- **/
 
         // TODO page view navigation
     }
 
+    /** ----  COPY IT ALL! ---- **/
     public void hmbClick(View view){
         menu.showMenu();
     }
@@ -69,5 +72,7 @@ public class ScheduleActivity extends AppCompatActivity {
             }
         }, 350);
     }
+
+    /** ---- ENOUGH OF COPY PASTE ---- **/
 
 }

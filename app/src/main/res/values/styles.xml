@@ -6,6 +6,12 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- material dialog-->
+        <item name="md_widget_color">@color/colorPrimary</item>
+        <item name="md_title_color">@color/colorPrimaryDark</item>
+        <item name="md_positive_color">@color/colorPrimaryDark</item>
+        <item name="md_negative_color">@color/colorPrimaryDark</item>
     </style>
 
     <!-- tema da toolbar custom -->

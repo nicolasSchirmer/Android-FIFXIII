@@ -9,6 +9,10 @@ buildscript {
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
+
+        // force me google! muahaha
+        classpath 'com.google.gms:google-services:3.0.0'
+        // in your face! :P
     }
 }
 
