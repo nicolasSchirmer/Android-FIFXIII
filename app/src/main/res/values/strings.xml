@@ -72,6 +72,23 @@
     <string name="nicolas">Nícolas Meira da Silva Schirmer</string>
     <string name="nicolas_dev">Código Android e Design</string>
 
-    <string name="license"><u>Licenças</u></string>
+    <string name="license">Licenças</string>
+    <string name="license_menu">
+        <b>Sliding Menu</b>\n
+        <a href="https://github.com/jfeinstein10/SlidingMenu/">https://github.com/jfeinstein10/SlidingMenu/</a>\n
+        Licença: <a href="http://www.apache.org/licenses/LICENSE-2.0/">Apache</a>
+    </string>
+
+    <string name="license_button">
+        <b>Fancy Buttons</b>\n
+        <a href="https://github.com/medyo/Fancybuttons/">https://github.com/medyo/Fancybuttons/</a>\n
+        Licença: <a href="http://opensource.org/licenses/MIT/">MIT</a>
+    </string>
+
+    <string name="license_dialog">
+        <b>Material Dialog</b>\n
+        <a href="https://github.com/afollestad/material-dialogs/">https://github.com/afollestad/material-dialogs/</a>\n
+        Licença: <a href="http://opensource.org/licenses/MIT/">MIT</a>
+    </string>
 
 </resources>
