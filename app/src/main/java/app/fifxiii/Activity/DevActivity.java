@@ -2,6 +2,7 @@ package app.fifxiii.Activity;
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -14,7 +15,7 @@ import android.widget.ScrollView;
 import app.fifxiii.Menu;
 import app.fifxiii.R;
 
-public class MainActivity extends AppCompatActivity {
+public class DevActivity extends AppCompatActivity {
 
     int scrollY;
     Menu menu;
@@ -22,52 +23,58 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_dev);
 
         /** -- COPY THIS -- **/
+        setScrollAnimation();
         menu = new Menu(this);
         /** -- AND DOWN THERE -- **/
-
-        setScrollAnimation();
     }
 
+    public void romClick(View view){
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://about.me/romuloreis")));
+    }
+
+    public void nicClick(View view){
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://about.me/nicolasSchirmer")));
+    }
+
+    /** ----  COPY IT ALL! ---- **/
     private void setScrollAnimation(){
-        final ScrollView scrollView = (ScrollView) findViewById(R.id.scrollView);
-        final ImageView mainImage = (ImageView) findViewById(R.id.mainImage);
-        final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        /** -- CHANGE THE RESOURCE SCROLLVIEW ID -- **/
+        final ImageView hmb = (ImageView) findViewById(R.id.hamButtonDev);
+        final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbarDev);
+        final ScrollView scrollView = (ScrollView) findViewById(R.id.scrollViewDev);
 
         if(scrollView != null){
             scrollView.getViewTreeObserver().addOnScrollChangedListener(new ViewTreeObserver.OnScrollChangedListener() {
                 @Override
                 public void onScrollChanged() {
-                    scrollY = scrollView.getScrollY() / 3;
+                    scrollY = scrollView.getScrollY() / 2;
 
-                    // setAplha com int deprecated
+                    // setAplha with int deprecated
                     if (scrollY > 0) {
                         if(scrollY < 255){
                             toolbar.setBackgroundColor(Color.argb(scrollY, 207, 173, 22));
-                            mainImage.setAlpha(255 - scrollY);
+                            hmb.setColorFilter(Color.argb(255 - scrollY, 207, 173, 22));
                         }
                         else {
                             toolbar.setBackgroundColor(Color.argb(255, 207, 173, 22));
-                            mainImage.setAlpha(255);
+                            hmb.setColorFilter(Color.argb(0, 207, 173, 22));
                         }
                     } else{
                         toolbar.setBackgroundColor(Color.argb(0, 207, 173, 22));
-                        mainImage.setAlpha(255);
+                        hmb.setColorFilter(Color.argb(255, 207, 173, 22));
                     }
                 }});}
     }
-
-    /** ----  COPY IT ALL! ---- **/
 
     public void hmbClick(View view){
         menu.showMenu();
     }
 
-    /** chance close for each activity **/
     public void homeClick(View view){
-        menu.close();
+        prepareChangeActivity(MainActivity.class);
     }
 
     public void scheduleClick(View view){
@@ -86,14 +93,14 @@ public class MainActivity extends AppCompatActivity {
         prepareChangeActivity(AofActivity.class);
     }
 
+    /** chance close for each activity **/
     public void devClick(View view){
-        prepareChangeActivity(DevActivity.class);
+        menu.close();
     }
 
     private void prepareChangeActivity(final Class mClass){
         menu.close();
 
-        // time for the close animation
         new Handler().postDelayed(new Runnable() {
             public void run() {
                 changeActivity(mClass);
@@ -110,14 +117,11 @@ public class MainActivity extends AppCompatActivity {
     public void onBackPressed(){
         if(menu.isOpen()) menu.close();
 
-        // time for the close animation
         new Handler().postDelayed(new Runnable() {
             public void run() {
                 finish();
             }
         }, 350);
     }
-
-    /** ---- OK! ENOUGH OF COPY PASTE ---- **/
-
+    /** ---- ENOUGH OF COPY PASTE ---- **/
 }

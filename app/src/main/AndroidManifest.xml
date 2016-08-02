@@ -55,6 +55,17 @@
             android:launchMode="singleTask"
             android:screenOrientation="sensorPortrait" />
 
+        <!-- DEV -->
+        <activity
+            android:name=".Activity.DevActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensorPortrait" />
+
+        <!-- AOFF -->
+        <activity
+            android:name=".Activity.AofActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensorPortrait"/>
     </application>
 
 </manifest>

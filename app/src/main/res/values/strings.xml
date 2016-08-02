@@ -10,19 +10,24 @@
     <string name="sponsor_desc">Patrocinadores</string>
     <string name="ticket_img">Ingresso</string>
     <string name="blank"> </string>
+    <string name="nic_img">Foto do Nicolas</string>
+    <string name="rom_img">Foto do Rômulo</string>
+
+    <string name="soon">Em breve.\n\nMantenha seu aplicativo atualizado para receber nossas novidades!</string>
 
     <!-- MENU -->
     <string name="button_schedule">AGENDA</string>
     <string name="button_groups">GRUPOS</string>
     <string name="button_info">INFORMAÇÕES</string>
     <string name="button_sponser">PATROCINADORES</string>
-    <string name="button_dev">DESENVOLVEDORES</string>
+    <string name="button_dev">DEV</string>
+    <string name="button_aof">AOFFRS</string>
     <string name="button_config">OPÇÕES</string>
 
     <!-- INIT SCREEN -->
-    <string name="title_init_screen">Festival Internacional de Folclore de Passo Fundo</string>
+    <string name="title_init_screen">Festival Internacional do Folclore de Passo Fundo</string>
     <string name="text_init_screen">
-        Na XIII edição do Festival Internacional de Folclore de Passo Fundo, receberemos 14 grupos
+        Na XIII edição do Festival Internacional do Folclore de Passo Fundo, receberemos 14 grupos
         de diferentes lugares do mundo.\n
         Além da interação com a comunidade durante as diferentes oficinas, os grupos também vão
         compartilhar sua cultura por meio da dança e da música.
@@ -45,11 +50,10 @@
         <b>Observação</b>: Para os espetáculos noturnos de <b>13</b> a <b>9/08/16</b>, quem comprar ingressos
         antecipados até <b>1 dia antes</b> do espetáculo, terão direito a <b>meio ingresso</b>.
     </string>
+
     <string name="phone">+55 54 3045 1415\n+55 54 9981 1893</string>
     <string name="email">cioffrs@annex.com.br</string>
-    <string name="place">
-        Parque da Gare\nVila Lucas Araujo\nPasso Fundo - RS
-    </string>
+    <string name="place">Parque da Gare\nVila Lucas Araujo\nPasso Fundo - RS</string>
     <string name="site">festivalpf.com.br</string>
 
     <string name="youtube">YouTube</string>
@@ -57,11 +61,17 @@
     <string name="facebook">Facebook</string>
     <string name="twitter">Twitter</string>
 
-    <string name="yes">sim</string>
-    <string name="no">não</string>
-
     <string name="call">Para qual número deseja ligar?</string>
     <string name="call_confirm">Ligar</string>
     <string name="call_deny">Cancelar</string>
+
+    <!-- DEV -->
+    <string name="dev_title">Desenvolvedores</string>
+    <string name="romulo">Rômulo Reis de Oliveira</string>
+    <string name="romulo_dev">Código Android e Back-End</string>
+    <string name="nicolas">Nícolas Meira da Silva Schirmer</string>
+    <string name="nicolas_dev">Código Android e Design</string>
+
+    <string name="license"><u>Licenças</u></string>
 
 </resources>

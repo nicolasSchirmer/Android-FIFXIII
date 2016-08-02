@@ -35,6 +35,7 @@ public class ScheduleActivity extends AppCompatActivity {
         prepareChangeActivity(MainActivity.class);
     }
 
+    /** chance close for each activity **/
     public void scheduleClick(View view){
         menu.close();
     }
@@ -45,6 +46,14 @@ public class ScheduleActivity extends AppCompatActivity {
 
     public void infoClick(View view){
         prepareChangeActivity(InfoActivity.class);
+    }
+
+    public void aofClick(View view){
+        prepareChangeActivity(AofActivity.class);
+    }
+
+    public void devClick(View view){
+        prepareChangeActivity(DevActivity.class);
     }
 
     private void prepareChangeActivity(final Class mClass){

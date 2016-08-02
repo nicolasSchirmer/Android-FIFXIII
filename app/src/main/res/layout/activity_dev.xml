@@ -3,14 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
     android:elevation="16dp"
-    tools:context=".Activity.InfoActivity">
+    android:background="@color/white"
+    tools:context=".Activity.DevActivity">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/scrollViewInfo"
+        android:id="@+id/scrollViewDev"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true">
 
@@ -21,15 +21,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <include layout="@layout/card_ticket"/>
-            <include layout="@layout/card_phone"/>
-            <include layout="@layout/card_email"/>
-            <include layout="@layout/card_place"/>
-            <include layout="@layout/card_site"/>
-            <include layout="@layout/card_social"/>
+            <include layout="@layout/dev_card"/>
 
         </LinearLayout>
-
     </ScrollView>
 
     <!-- toolbar com botoes e firulas
@@ -40,7 +34,7 @@
     MUDAR ID QUANDO COPIAR
     -->
     <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbarInfo"
+        android:id="@+id/toolbarDev"
         app:contentInsetStart="0dp"
         style="@style/ToolbarTranparent"
         android:gravity="center_vertical"
@@ -52,7 +46,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android">
 
         <ImageButton
-            android:id="@+id/hamButtonInfo"
+            android:id="@+id/hamButtonDev"
             android:contentDescription="@string/ham_menu"
             android:onClick="hmbClick"
             style="@style/ImageView.Hamburger"

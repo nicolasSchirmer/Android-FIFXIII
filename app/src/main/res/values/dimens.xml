@@ -7,5 +7,5 @@
 
     <dimen name="action_bar_overflow_padding_start_material">6dp</dimen>
 
-    <dimen name="margin_btn_menu">65dp</dimen>
+    <dimen name="margin_btn_menu">50dp</dimen>
 </resources>
