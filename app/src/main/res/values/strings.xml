@@ -4,51 +4,51 @@
     <!-- IMAGE DESCRIPTIONS
      https://developer.android.com/guide/topics/ui/accessibility/index.html -->
     <string name="ham_menu">menu</string>
-    <string name="init_img">XIII festival internacional de folclore</string>
-    <string name="home_menu">Página inicial</string>
-    <string name="flag">Bandeira</string>
-    <string name="sponsor_desc">Patrocinadores</string>
-    <string name="ticket_img">Ingresso</string>
+    <string name="init_img">XIII International festival of folklore</string>
+    <string name="home_menu">Home page</string>
+    <string name="flag">Flag</string>
+    <string name="sponsor_desc">Sponsors</string>
+    <string name="ticket_img">Ticket</string>
     <string name="blank"> </string>
-    <string name="nic_img">Foto do Nicolas</string>
-    <string name="rom_img">Foto do Rômulo</string>
+    <string name="nic_img">Picture of Nicolas</string>
+    <string name="rom_img">Picture of Rômulo</string>
 
-    <string name="soon">Em breve.\n\nMantenha seu aplicativo atualizado para receber nossas novidades!</string>
+    <string name="soon">Soon.\n\nKeep your app up to date to receive our news!</string>
 
     <!-- MENU -->
-    <string name="button_schedule">AGENDA</string>
-    <string name="button_groups">GRUPOS</string>
-    <string name="button_info">INFORMAÇÕES</string>
-    <string name="button_sponser">PATROCINADORES</string>
+    <string name="button_schedule">SCHEDULE</string>
+    <string name="button_groups">GROUPS</string>
+    <string name="button_info">INFO</string>
+    <string name="button_sponser">SPONSORS</string>
     <string name="button_dev">DEV</string>
     <string name="button_aof">AOFFRS</string>
-    <string name="button_config">OPÇÕES</string>
+    <string name="button_config">OPTIONS</string>
 
     <!-- INIT SCREEN -->
-    <string name="title_init_screen">Festival Internacional do Folclore de Passo Fundo</string>
+    <string name="title_init_screen">International Festival of Folklore of Passo Fundo</string>
     <string name="text_init_screen">
-        Na XIII edição do Festival Internacional do Folclore de Passo Fundo, receberemos 14 grupos
-        de diferentes lugares do mundo.\n
-        Além da interação com a comunidade durante as diferentes oficinas, os grupos também vão
-        compartilhar sua cultura por meio da dança e da música.
+        In the XIII edition of the International Festival of Folklore of Passo Fundo, we will receive 14 groups
+        from different parts of the world.\n
+        In addition to the interaction with the community during the different workshops, the groups will also
+        share their culture through dance and music.
     </string>
 
     <!-- INFO -->
-    <string name="title_ticket">Ingressos</string>
+    <string name="title_ticket">Tickets</string>
     <string name="text_ticket">
-        Abertura dia <b>12/08/16</b> e encerramento dia <b>20/08/16</b>: \n
-        - <b>Inteiro</b>: R$16,00 e <b>meio</b>: R$8,00 (estudantes com carteira de estudante
-        e pessoas acima de 60 anos com identidade). \n\n
+        Festival opening at <b>12/08/16</b> and closing at <b>20/08/16</b>: \n
+        - <b>Full price</b>: R$16,00 and <b>half price</b>: R$8,00 (students with student ID
+        and people over 60 years old with identity). \n\n
 
-        Nas outras noites de <b>13</b> a <b>19/08/16</b>: \n
-        - <b>Inteiro</b>: R$10,00 e <b>meio</b>: R$5,00 (estudantes, pessoas acima de 60 anos e trabalhadores). \n\n
+        On other nights through <b>13/08/16</b> to <b>19/08/16</b>: \n
+        - <b>Full price</b>: R$10,00 e <b>half price</b>: R$5,00 (students, people over 60 years old and workers). \n\n
 
-        Venda de ingressos à partir do dia <b>08.08.16</b> das <b>13h até 19h</b>, no Parque da Gare, Casarão
+        Selling tickets on the day <b>08.08.16</b> from <b>1pm to 7pm</b>, at Parque da Gare, Casarão
         da Cultura. \n\n
-        <b>Compras à distância</b> - Fone: (0xx54) 9101 8100 ou (0xx54) 3311 1623 – com Iracema. \n\n
+        <b>Teleshopping</b> - Phone: +55 54 9101 8100 or +55 54 3311 1623 – with Iracema. \n\n
 
-        <b>Observação</b>: Para os espetáculos noturnos de <b>13</b> a <b>9/08/16</b>, quem comprar ingressos
-        antecipados até <b>1 dia antes</b> do espetáculo, terão direito a <b>meio ingresso</b>.
+        <b>Obs.</b>: For nightly shows from <b>13/08/16</b> to <b>9/08/16</b>, who buy tickets anticipated
+        <b>1 day before</b> the show, are entitled to <b>half price ticket</b>.
     </string>
 
     <string name="phone">+55 54 3045 1415\n+55 54 9981 1893</string>
@@ -61,34 +61,34 @@
     <string name="facebook">Facebook</string>
     <string name="twitter">Twitter</string>
 
-    <string name="call">Para qual número deseja ligar?</string>
-    <string name="call_confirm">Ligar</string>
-    <string name="call_deny">Cancelar</string>
+    <string name="call">Which number you want to call?</string>
+    <string name="call_confirm">Call</string>
+    <string name="call_deny">Cancel</string>
 
     <!-- DEV -->
-    <string name="dev_title">Desenvolvedores</string>
+    <string name="dev_title">Developers</string>
     <string name="romulo">Rômulo Reis de Oliveira</string>
-    <string name="romulo_dev">Código Android e Back-End</string>
+    <string name="romulo_dev">Android code and Back-End</string>
     <string name="nicolas">Nícolas Meira da Silva Schirmer</string>
-    <string name="nicolas_dev">Código Android e Design</string>
+    <string name="nicolas_dev">Android code and Design</string>
 
-    <string name="license">Licenças</string>
+    <string name="license">Licences</string>
     <string name="license_menu">
         <b>Sliding Menu</b>\n
-        <a href="https://github.com/jfeinstein10/SlidingMenu/">https://github.com/jfeinstein10/SlidingMenu/</a>\n
-        Licença: <a href="http://www.apache.org/licenses/LICENSE-2.0/">Apache</a>
+        <a href="https://github.com/jfeinstein10/SlidingMenu/">https://github.com/jfeinstein10/SlidingMenu</a>\n
+        License: <a href="http://www.apache.org/licenses/LICENSE-2.0/">Apache</a>
     </string>
 
     <string name="license_button">
         <b>Fancy Buttons</b>\n
-        <a href="https://github.com/medyo/Fancybuttons/">https://github.com/medyo/Fancybuttons/</a>\n
-        Licença: <a href="http://opensource.org/licenses/MIT/">MIT</a>
+        <a href="https://github.com/medyo/Fancybuttons/">https://github.com/medyo/Fancybuttons</a>\n
+        License: <a href="http://opensource.org/licenses/MIT/">MIT</a>
     </string>
 
     <string name="license_dialog">
         <b>Material Dialog</b>\n
-        <a href="https://github.com/afollestad/material-dialogs/">https://github.com/afollestad/material-dialogs/</a>\n
-        Licença: <a href="http://opensource.org/licenses/MIT/">MIT</a>
+        <a href="https://github.com/afollestad/material-dialogs/">https://github.com/afollestad/material-dialogs</a>\n
+        License: <a href="http://opensource.org/licenses/MIT/">MIT</a>
     </string>
 
 </resources>
