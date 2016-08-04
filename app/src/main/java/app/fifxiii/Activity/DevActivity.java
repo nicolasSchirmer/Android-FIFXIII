@@ -39,6 +39,10 @@ public class DevActivity extends AppCompatActivity {
         startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://about.me/nicolasSchirmer")));
     }
 
+    public void flaClick(View view){
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/flavio.porto.79")));
+    }
+
     /** ----  COPY IT ALL! ---- **/
     private void setScrollAnimation(){
         /** -- CHANGE THE RESOURCE SCROLLVIEW ID -- **/

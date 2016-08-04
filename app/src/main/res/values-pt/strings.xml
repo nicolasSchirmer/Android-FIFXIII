@@ -12,6 +12,7 @@
     <string name="blank"> </string>
     <string name="nic_img">Foto do Nicolas</string>
     <string name="rom_img">Foto do Rômulo</string>
+    <string name="fla_img">Foto do Flávio</string>
 
     <string name="soon">Em breve.\n\nMantenha seu aplicativo atualizado para receber nossas novidades!</string>
 
@@ -47,7 +48,7 @@
         da Cultura. \n\n
         <b>Compras à distância</b> - Fone: (0xx54) 9101 8100 ou (0xx54) 3311 1623 – com Iracema. \n\n
 
-        <b>Observação</b>: Para os espetáculos noturnos de <b>13/08/16</b> a <b>9/08/16</b>, quem comprar ingressos
+        <b>Observação</b>: Para os espetáculos noturnos de <b>13/08/16</b> à <b>19/08/16</b>, quem comprar ingressos
         antecipados até <b>1 dia antes</b> do espetáculo, terão direito a <b>meio ingresso</b>.
     </string>
 
@@ -71,6 +72,8 @@
     <string name="romulo_dev">Código Android e Back-End</string>
     <string name="nicolas">Nícolas Meira da Silva Schirmer</string>
     <string name="nicolas_dev">Código Android e Design</string>
+    <string name="flavio">Flávio Lemos Porto</string>
+    <string name="flavio_dev">Analista de sistemas</string>
 
     <string name="license">Licenças</string>
     <string name="license_menu">
@@ -89,6 +92,38 @@
         <b>Material Dialog</b>\n
         <a href="https://github.com/afollestad/material-dialogs/">https://github.com/afollestad/material-dialogs</a>\n
         Licença: <a href="http://opensource.org/licenses/MIT/">MIT</a>
+    </string>
+
+    <!-- SPONSORSHIP -->
+    <string name="realization">Realização</string>
+    <string name="sponsorship">Patrocinio</string>
+    <string name="support">Apoio</string>
+    <string name="promotion">Promoção</string>
+
+    <!-- SCHEDULE -->
+    <string name="today">Hoje</string>
+    <string name="title_schedule">Agenda</string>
+
+    <!-- GROUPS -->
+    <string name="title_groups">Grupos</string>
+
+    <!-- AOFFERS -->
+    <string name="title_aoffers">AOFFERS</string>
+    <string name="place_aoffers">Av. Gen. Neto, 145\nPasso Fundo - RS</string>
+    <string name="text_aoffers">
+    <b>A Associação de Organizações de Festivais Folclóricos do Rio Grande do Sul</b>\n\n
+        AOFFERS, é uma ONG sem fins lucrativos, com sede na cidade de Passo Fundo. A AOFFERS, sucedeu a Secção Estadual do Rio Grande do Sul do CIOFF, de conformidade com a reforma estatutária ocorrida.\n\n
+        O principal objetivo da AOFFERS, é organizar o Festival Internacional de Folclore de Passo Fundo. O Festival tem certificado de reconhecimento oficial do CIOFF MUNDIAL, Conselho Internacional das Organizações de Festivais Folclóricos e Artes Tradicionais, sendo que este mantém relações formais de consulta com UNESCO.\n\n
+        - Temos como meta também de servir aos objetivos da UNESCO, como a causa da PAZ, e todos relacionados a Arte e Cultura Tradicionais.\n
+        - Promover a cidade de Passo Fundo, o Estado do Rio Grande do Sul e o Brasil, no âmbito da cultura, especialmente do folclore e ates tradicionais, cultura popular.\n
+        - Proporcionar aos gaúchos a oportunidade de presenciarem espetáculos de nível internacional em sua casa durante os eventos que apoia e realiza\n
+        - Integrar nosso povo, seus usos e costumes aos de outros povos, através de oficinas de danças, conversações e desfiles de ruas.\n
+        - Promover o intercâmbio cultural , entre os diferentes grupos de folclore e respectivos países e estados participantes dos festivais.\n
+        - Sensibilizar a comunidade da importância da integração dos povos, através d cultivo da arte, e da história dos países e estados participantes dos festivais.\n\n
+        AOFFERS, com o apoio dos Poderes Públicos, entidades e volntários, é a planejadora , organizadora e executora do Festival Internacional de Folclore de Passo Fundo, com os mesmos objetivos e formatos das edições anteriores.\n\n
+    <b>Formato do Festival</b>\n
+        O Festival Internacional de Folclore de Passo Fundo, começa a ser formatado em janeiro do ano anterior a sua realização, com a elaboração de projetos. Cada comissão de trabalho organiza suas atividades com os voluntários e efetuam os treinamentos para estes. Os grupos convidados pagam suas passagens desde seu país ou estado até o aeroporto da capital do Estado do Rio Grande do Sul, ou cidade de Passo Fundo.\n\n
+        O Festival responsabiliza-se pelo transporte desde as fronteiras do Brasil ou do aeroporto mais próximo. O Festival não paga cachês, e em alguns casos excepcionais paga uma pequena ajuda de custo segundo as regras do Cioff. O Festival responsabiliza-se pela estrutura dos locais de apresentações (espaço físico, iluminação, sonorização, fotos, filmagens, etc), divulgação, alojamento, alimentação e transporte interno para os grupos de danças estrangeiros e nacionais.
     </string>
 
 </resources>

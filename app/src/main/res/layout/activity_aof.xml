@@ -3,10 +3,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/white"
     tools:context=".Activity.AofActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollViewAoffers"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_marginTop="54dp"
+            android:paddingBottom="70dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/aof_card"/>
+            <include layout="@layout/aof_card_place"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!-- toolbar com botoes e firulas
+
+    Precisa estar aqui em vez dum include bonito pq a acitivity anterior ta usando a mesmo
+    recursmo com o mesmo id
+
+    MUDAR ID QUANDO COPIAR
+    -->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarAoffers"
+        app:contentInsetStart="0dp"
+        style="@style/ToolbarTranparent"
+        android:gravity="center_vertical"
+        android:elevation="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageButton
+            android:id="@+id/hamButtonAoffers"
+            android:contentDescription="@string/ham_menu"
+            android:onClick="hmbClick"
+            style="@style/ImageView.Hamburger"
+            android:src="@mipmap/ic_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </android.support.v7.widget.Toolbar>
 
 </RelativeLayout>

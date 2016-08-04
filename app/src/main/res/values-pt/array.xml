@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="phones">
+        <item>+55 54 3045 1415</item>
+        <item>+55 54 9981 1893</item>
+    </string-array>
+</resources>

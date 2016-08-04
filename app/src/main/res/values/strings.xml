@@ -11,7 +11,8 @@
     <string name="ticket_img">Ticket</string>
     <string name="blank"> </string>
     <string name="nic_img">Picture of Nicolas</string>
-    <string name="rom_img">Picture of Rômulo</string>
+    <string name="rom_img">Picture of Romulo</string>
+    <string name="fla_img">Picture of Flavio</string>
 
     <string name="soon">Soon.\n\nKeep your app up to date to receive our news!</string>
 
@@ -22,7 +23,7 @@
     <string name="button_sponser">SPONSORS</string>
     <string name="button_dev">DEV</string>
     <string name="button_aof">AOFFRS</string>
-    <string name="button_config">OPTIONS</string>
+    <string name="button_config">SETTINGS</string>
 
     <!-- INIT SCREEN -->
     <string name="title_init_screen">International Festival of Folklore of Passo Fundo</string>
@@ -36,19 +37,18 @@
     <!-- INFO -->
     <string name="title_ticket">Tickets</string>
     <string name="text_ticket">
-        Festival opening at <b>12/08/16</b> and closing at <b>20/08/16</b>: \n
-        - <b>Full price</b>: R$16,00 and <b>half price</b>: R$8,00 (students with student ID
-        and people over 60 years old with identity). \n\n
+        Opening <b>August 12th, 2016</b> and Closing <b>August 20th, 2016</b> : \n
+        - <b>Full-price</b>: R$16,00 e <b>Half-price</b>: R$8,00 (students with ID and 60-year-old
+        or over people presenting ID, according to Municipal laws number 2.946 and 2931). \n\n
 
-        On other nights through <b>13/08/16</b> to <b>19/08/16</b>: \n
-        - <b>Full price</b>: R$10,00 e <b>half price</b>: R$5,00 (students, people over 60 years old and workers). \n\n
+        Other nights from August 13th to August 19th, 2016: \n
+        - <b>Full-price</b>: R$10,00 e <b>Half-preice</b>: R$5,00 (students, 60-years-old or over people and workers). \n\n
 
-        Selling tickets on the day <b>08.08.16</b> from <b>1pm to 7pm</b>, at Parque da Gare, Casarão
-        da Cultura. \n\n
-        <b>Teleshopping</b> - Phone: +55 54 9101 8100 or +55 54 3311 1623 – with Iracema. \n\n
+        Tickets sale: from <b>August 8th, 2016</b> - from 1pm to 7 pm in Gare Park, Culture Big House (main stage) . \n\n
+        <b>shopping distance</b> - Phone: (0xx54) 9101 8100 ou (0xx54) 3311 1623 – with Iracema. \n\n
 
-        <b>Obs.</b>: For nightly shows from <b>13/08/16</b> to <b>9/08/16</b>, who buy tickets anticipated
-        <b>1 day before</b> the show, are entitled to <b>half price ticket</b>.
+        <b>Observations:</b> For nights shows from <b>August 13,2016</b> to <b>August 19,2016</b>, who buy advance tickets
+        until <b>1 day before</b> of shows, are entitled to <b>halh-price</b>.
     </string>
 
     <string name="phone">+55 54 3045 1415\n+55 54 9981 1893</string>
@@ -61,7 +61,7 @@
     <string name="facebook">Facebook</string>
     <string name="twitter">Twitter</string>
 
-    <string name="call">Which number you want to call?</string>
+    <string name="call">What number you want to call?</string>
     <string name="call_confirm">Call</string>
     <string name="call_deny">Cancel</string>
 
@@ -71,6 +71,8 @@
     <string name="romulo_dev">Android code and Back-End</string>
     <string name="nicolas">Nícolas Meira da Silva Schirmer</string>
     <string name="nicolas_dev">Android code and Design</string>
+    <string name="flavio">Flávio Lemos Porto</string>
+    <string name="flavio_dev">Project Analyst</string>
 
     <string name="license">Licences</string>
     <string name="license_menu">
@@ -89,6 +91,38 @@
         <b>Material Dialog</b>\n
         <a href="https://github.com/afollestad/material-dialogs/">https://github.com/afollestad/material-dialogs</a>\n
         License: <a href="http://opensource.org/licenses/MIT/">MIT</a>
+    </string>
+
+    <!-- SPONSORSHIP -->
+    <string name="realization">Realization</string>
+    <string name="sponsorship">Sponsors</string>
+    <string name="support">Suport</string>
+    <string name="promotion">Promotion</string>
+
+    <!-- SCHEDULE -->
+    <string name="today">Today</string>
+    <string name="title_schedule">Schedulle</string>
+
+    <!-- GROUPS -->
+    <string name="title_groups">Groups</string>
+
+    <!-- AOFFERS -->
+    <string name="title_aoffers">AOFFERS</string>
+    <string name="place_aoffers">Av. Gen. Neto, 145\nPasso Fundo - RS</string>
+    <string name="text_aoffers">
+    <b>The Association of Folklore Festivals Organizations of Rio Grande do Sul State (AOFFERS)</b>\n\n
+        AOFFERS, The Association of Folklore Festivals Organizations of Rio Grande do Sul State (AOFFERS) is a nonprofit nongovernmental organization based in Passo Fundo City – RS. AOFFERS succeeded the CIOFF Rio Grande do Sul State Section, accordingly to the recent state reform.\n\n
+        The Association main objective is to organize the Passo Fundo International Folklore Festival. The Festival is officially recognized by World CIOFF – International Council of Traditional Arts and Folklore Festivals Organization, being directly related to UNESCO.\n\n
+        - Also, it is its goal to serve UNESCO principles, such as the WORLD PEACE, and also with those ones related to the Traditional Arts and Culture.\n
+        - To promote Passo Fundo City, Rio Grande do Sul Sate and Brazil, in the culture field, specifically related to traditional arts and folklore.\n
+        - Provide to the gaucho people the opportunity to attend high-level shows at home, during the events that supports and carries out.\n
+        - Integrate the local people and costumes to other people, through dance workshops, conversations and street parades.\n
+        - Promote cultural exchange among the international and domestic participants.\n
+        - Sensitive the community to the importance of diversity, through the history of the participating states and countries.\n\n
+         AOFFERS, helped by the Public Sector, entities and volunteers is responsible of planning, organizing and executing Passo Fundo International Festival of Folklore, with the same objectives and formats of previous editions.\n\n
+    <b>The Festival Format</b>\n
+        The Passo Fundo International Folklore Festival starts to come together in January of the previous year before completing the creative projects. Each work committee organizes its activities with the volunteers and makes the training for them. The groups who are invited to participate in the event pay for their air tickets from their state or country from origin to the airport in the capital of Rio Grande do Sul State or to Passo Fundo City. n\n
+        The festival is the responsible for the transportation from the borders with Brazil or the nearest airport. The festival doesn’t pay fee and, in some exceptional cases, pays for a small subsistence allowance according to the CIOFF rules. The Festival is responsible for the performances structure (physical space, lighting, sound, photos, filming, etc), publicizing, lodging, catering service and local transportation for national and international dancing groups.
     </string>
 
 </resources>
