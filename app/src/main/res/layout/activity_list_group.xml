@@ -1,18 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
     android:elevation="16dp"
     tools:context=".Activity.ListGroupActivity">
-<!--
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarListGroup"
+        app:contentInsetStart="0dp"
+        style="@style/Toolbar"
+        android:gravity="center_vertical"
+        android:elevation="8dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageButton
+            android:id="@+id/hamButtonListGroup"
+            android:contentDescription="@string/ham_menu"
+            android:onClick="hmbClick"
+            style="@style/ImageView.Hamburger"
+            android:src="@mipmap/ic_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </android.support.v7.widget.Toolbar>
+
     <ListView
-        android:layout_width="wrap_content"
+        android:divider="@color/transparent"
+        android:dividerHeight="10sp"
+        android:smoothScrollbar="true"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:paddingRight="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/listView"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
--->
+        android:clickable="true"
+        android:drawSelectorOnTop="true"
+        android:listSelector="@drawable/selector"
+        android:id="@+id/listView" />
+<!--
     <TextView
         android:padding="@dimen/activity_horizontal_margin"
         android:layout_width="wrap_content"
@@ -23,7 +57,7 @@
         android:id="@+id/textView2"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
-
+-->
     <!-- toolbar com botoes e firulas
 
     Precisa estar aqui em vez dum include bonito pq a acitivity anterior ta usando a mesmo
@@ -31,25 +65,4 @@
 
     MUDAR ID QUANDO COPIAR
     -->
-    <android.support.v7.widget.Toolbar
-        app:contentInsetStart="0dp"
-        style="@style/Toolbar"
-        android:gravity="center_vertical"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:elevation="8dp"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:android="http://schemas.android.com/apk/res/android">
-
-        <ImageButton
-            android:contentDescription="@string/ham_menu"
-            android:onClick="hmbClick"
-            style="@style/ImageView.Hamburger"
-            android:src="@mipmap/ic_menu"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            />
-
-    </android.support.v7.widget.Toolbar>
-</RelativeLayout>
+</LinearLayout>

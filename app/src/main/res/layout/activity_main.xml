@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
-    android:id="@+id/rootLayoutList"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:elevation="16dp"
     android:background="@color/white"
     tools:context=".Activity.MainActivity">
 
@@ -49,20 +49,20 @@
                 android:gravity="center"
                 android:padding="8dp"
                 android:textSize="16sp"
-                android:paddingBottom="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/text_init_screen" />
 
             <ImageView
+                android:contentDescription="@string/sponsor_desc"
                 android:id="@+id/sponsor_main"
                 android:src="@drawable/sponsor_img"
                 android:scaleType="centerInside"
                 android:adjustViewBounds="true"
+                android:paddingTop="@dimen/activity_horizontal_margin"
                 android:paddingBottom="@dimen/activity_horizontal_margin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
-
         </LinearLayout>
     </ScrollView>
 
@@ -76,6 +76,7 @@
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         app:contentInsetStart="0dp"
+        android:elevation="8dp"
         style="@style/ToolbarTranparent"
         android:gravity="center_vertical"
         android:layout_alignParentTop="true"
@@ -94,5 +95,6 @@
             android:layout_height="wrap_content"
             />
     </android.support.v7.widget.Toolbar>
+
 
 </RelativeLayout>

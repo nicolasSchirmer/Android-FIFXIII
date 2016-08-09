@@ -2,6 +2,7 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
+    android:elevation="4dp"
     android:clickable="true"
     android:layout_margin="10dp"
     android:background="@drawable/rounded_corner_wselector"
@@ -16,6 +17,15 @@
         android:textSize="18sp"
         android:layout_marginTop="@dimen/activity_horizontal_margin"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:clickable="true"
+        android:autoLink="web"
+        android:text="@string/license_picasso"
+        android:layout_margin="@dimen/activity_horizontal_margin"/>
 
     <TextView
         android:layout_width="wrap_content"

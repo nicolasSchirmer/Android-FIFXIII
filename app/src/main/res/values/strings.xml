@@ -42,13 +42,13 @@
         or over people presenting ID, according to Municipal laws number 2.946 and 2931). \n\n
 
         Other nights from August 13th to August 19th, 2016: \n
-        - <b>Full-price</b>: R$10,00 e <b>Half-preice</b>: R$5,00 (students, 60-years-old or over people and workers). \n\n
+        - <b>Full-price</b>: R$10,00 e <b>Half-price</b>: R$5,00 (students, 60-years-old or over people and workers). \n\n
 
         Tickets sale: from <b>August 8th, 2016</b> - from 1pm to 7 pm in Gare Park, Culture Big House (main stage) . \n\n
         <b>shopping distance</b> - Phone: (0xx54) 9101 8100 ou (0xx54) 3311 1623 – with Iracema. \n\n
 
         <b>Observations:</b> For nights shows from <b>August 13,2016</b> to <b>August 19,2016</b>, who buy advance tickets
-        until <b>1 day before</b> of shows, are entitled to <b>halh-price</b>.
+        until <b>1 day before</b> of shows, are entitled to <b>half-price</b>.
     </string>
 
     <string name="phone">+55 54 3045 1415\n+55 54 9981 1893</string>
@@ -61,16 +61,16 @@
     <string name="facebook">Facebook</string>
     <string name="twitter">Twitter</string>
 
-    <string name="call">What number you want to call?</string>
+    <string name="call">Which number you want to call?</string>
     <string name="call_confirm">Call</string>
     <string name="call_deny">Cancel</string>
 
     <!-- DEV -->
     <string name="dev_title">Developers</string>
     <string name="romulo">Rômulo Reis de Oliveira</string>
-    <string name="romulo_dev">Android code and Back-End</string>
+    <string name="romulo_dev">Android code and Back-End Structure</string>
     <string name="nicolas">Nícolas Meira da Silva Schirmer</string>
-    <string name="nicolas_dev">Android code and Design</string>
+    <string name="nicolas_dev">Android code, UI/UX and Back-End</string>
     <string name="flavio">Flávio Lemos Porto</string>
     <string name="flavio_dev">Project Analyst</string>
 
@@ -91,6 +91,12 @@
         <b>Material Dialog</b>\n
         <a href="https://github.com/afollestad/material-dialogs/">https://github.com/afollestad/material-dialogs</a>\n
         License: <a href="http://opensource.org/licenses/MIT/">MIT</a>
+    </string>
+
+    <string name="license_picasso">
+        <b>Picasso</b>\n
+        <a href="https://github.com/square/picasso/">https://github.com/square/picasso</a>\n
+        License: <a href="http://www.apache.org/licenses/LICENSE-2.0/">Apache</a>
     </string>
 
     <!-- SPONSORSHIP -->
@@ -121,7 +127,7 @@
         - Sensitive the community to the importance of diversity, through the history of the participating states and countries.\n\n
          AOFFERS, helped by the Public Sector, entities and volunteers is responsible of planning, organizing and executing Passo Fundo International Festival of Folklore, with the same objectives and formats of previous editions.\n\n
     <b>The Festival Format</b>\n
-        The Passo Fundo International Folklore Festival starts to come together in January of the previous year before completing the creative projects. Each work committee organizes its activities with the volunteers and makes the training for them. The groups who are invited to participate in the event pay for their air tickets from their state or country from origin to the airport in the capital of Rio Grande do Sul State or to Passo Fundo City. n\n
+        The Passo Fundo International Folklore Festival starts to come together in January of the previous year before completing the creative projects. Each work committee organizes its activities with the volunteers and makes the training for them. The groups who are invited to participate in the event pay for their air tickets from their state or country from origin to the airport in the capital of Rio Grande do Sul State or to Passo Fundo City. \n\n
         The festival is the responsible for the transportation from the borders with Brazil or the nearest airport. The festival doesn’t pay fee and, in some exceptional cases, pays for a small subsistence allowance according to the CIOFF rules. The Festival is responsible for the performances structure (physical space, lighting, sound, photos, filming, etc), publicizing, lodging, catering service and local transportation for national and international dancing groups.
     </string>
 

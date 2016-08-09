@@ -8,18 +8,13 @@
     android:shareInterpolator="true"
     android:fillAfter="true">
 
-    <alpha
-        android:duration="750"
-        android:fromAlpha="0"
-        android:toAlpha="1" />
-
     <scale
-        android:duration="600"
+        android:duration="100"
         android:pivotY="50%"
         android:pivotX="50%"
-        android:fromXScale="0.5"
+        android:fromXScale="0.6"
         android:toXScale="1"
-        android:fromYScale="0.5"
+        android:fromYScale="0.7"
         android:toYScale="1" />
 
 </set>

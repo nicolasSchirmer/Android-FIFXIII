@@ -65,7 +65,8 @@
         <activity
             android:name=".Activity.AofActivity"
             android:launchMode="singleTask"
-            android:screenOrientation="sensorPortrait"/>
+            android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Activity.GroupActivity"></activity>
     </application>
 
 </manifest>

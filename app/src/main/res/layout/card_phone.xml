@@ -3,11 +3,11 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:background="@drawable/rounded_corner_wselector"
     android:layout_margin="10dp"
+    android:elevation="2dp"
     android:clickable="true"
     android:onClick="phoneClick"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
-
 
     <ImageView
         android:id="@+id/imagePhone"

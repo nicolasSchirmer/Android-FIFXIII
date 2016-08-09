@@ -6,6 +6,7 @@
     android:layout_margin="10dp"
     android:clickable="true"
     android:onClick="placeAofClick"
+    android:elevation="2dp"
     android:gravity="center_vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">

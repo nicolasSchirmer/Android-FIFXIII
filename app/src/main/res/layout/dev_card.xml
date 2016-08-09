@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:background="@drawable/rounded_corner"
     android:layout_margin="10dp"
+    android:elevation="4dp"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
@@ -63,7 +64,6 @@
         android:clickable="true"
         android:onClick="nicClick"
         android:background="@drawable/selector"
-        android:padding="@dimen/activity_horizontal_margin"
         android:paddingTop="20dp"
         android:paddingBottom="@dimen/activity_horizontal_margin"
         android:orientation="vertical"
@@ -95,7 +95,7 @@
     </LinearLayout>
 
     <View
-        android:id="@+id/linedev"
+        android:id="@+id/linedev2"
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"

@@ -40,6 +40,10 @@ public class Menu extends AppCompatActivity {
         return menu.isMenuShowing();
     }
 
+    public void lock(boolean b){
+        menu.setSlidingEnabled(b);
+    }
+
     public void close() {
         menu.toggle();
     }

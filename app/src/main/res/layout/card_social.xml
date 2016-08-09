@@ -16,6 +16,7 @@
             android:padding="@dimen/activity_horizontal_margin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:elevation="2dp"
             android:layout_weight = "1">
 
             <ImageView
@@ -46,6 +47,7 @@
             android:padding="@dimen/activity_horizontal_margin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:elevation="2dp"
             android:layout_weight = "1">
 
             <ImageView
@@ -81,6 +83,7 @@
             android:padding="@dimen/activity_horizontal_margin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:elevation="2dp"
             android:layout_weight = "1">
 
             <ImageView
@@ -111,6 +114,7 @@
             android:padding="@dimen/activity_horizontal_margin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:elevation="2dp"
             android:layout_weight = "1">
 
             <ImageView

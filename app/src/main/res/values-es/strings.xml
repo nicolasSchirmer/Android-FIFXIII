@@ -68,7 +68,7 @@
     <string name="romulo_dev">CÃ³digo Android e Back-End</string>
     <string name="nicolas">NÃ­colas Meira da Silva Schirmer</string>
     <string name="nicolas_dev">CÃ³digo Android e Design</string>
-    <string name="flavio">FlÃ¡vio Lemos Porto</string>
+    <string name="flavio">Flávio Lemos Porto</string>
     <string name="flavio_dev">desarrolladores</string>
 
     <string name="license">Licencias</string>
@@ -90,6 +90,11 @@
         LicenÃ§a: <a href="http://opensource.org/licenses/MIT/">MIT</a>
     </string>
 
+    <string name="license_picasso">
+        <b>Picasso</b>\n
+        <a href="https://github.com/square/picasso/">https://github.com/square/picasso</a>\n
+        LicenÃ§a: <a href="http://www.apache.org/licenses/LICENSE-2.0/">Apache</a>
+    </string>
 
     <!-- SPONSORSHIP -->
     <string name="realization">Logro</string>
