@@ -2,10 +2,15 @@ package app.fifxiii.Activity;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
+import android.view.View;
+import android.view.ViewTreeObserver;
 import android.widget.ImageView;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.google.firebase.database.DataSnapshot;
@@ -25,6 +30,7 @@ public class GroupActivity extends AppCompatActivity {
     Intent intent;
     String group;
     Context context;
+    int scrollY;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +42,8 @@ public class GroupActivity extends AppCompatActivity {
         group = bundle.getString("Extra");
 
         context = getBaseContext();
+
+        setScrollAnimation();
 
         setContent();
     }
@@ -74,5 +82,40 @@ public class GroupActivity extends AppCompatActivity {
                 }
             });
         }
+    }
+
+    private void setScrollAnimation(){
+        /** -- CHANGE THE RESOURCE SCROLLVIEW ID -- **/
+        final ImageView back = (ImageView) findViewById(R.id.backButtonGroup);
+        final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbarGroup);
+        final ScrollView scrollView = (ScrollView) findViewById(R.id.scrollViewGroup);
+
+        back.setColorFilter(Color.argb(255, 207, 173, 22));
+
+        if(scrollView != null){
+            scrollView.getViewTreeObserver().addOnScrollChangedListener(new ViewTreeObserver.OnScrollChangedListener() {
+                @Override
+                public void onScrollChanged() {
+                    scrollY = scrollView.getScrollY() / 2;
+
+                    // setAplha with int deprecated
+                    if (scrollY > 0) {
+                        if(scrollY < 255){
+                            toolbar.setBackgroundColor(Color.argb(scrollY, 207, 173, 22));
+                            back.setColorFilter(Color.argb(255 - scrollY, 207, 173, 22));
+                        }
+                        else {
+                            toolbar.setBackgroundColor(Color.argb(255, 207, 173, 22));
+                            back.setColorFilter(Color.argb(0, 207, 173, 22));
+                        }
+                    } else{
+                        toolbar.setBackgroundColor(Color.argb(0, 207, 173, 22));
+                        back.setColorFilter(Color.argb(255, 207, 173, 22));
+                    }
+                }});}
+    }
+
+    public void backClick(View view){
+        onBackPressed();
     }
 }

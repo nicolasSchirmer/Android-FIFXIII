@@ -10,6 +10,7 @@
     <string name="sponsor_desc">Sponsors</string>
     <string name="ticket_img">Ticket</string>
     <string name="blank"> </string>
+    <string name="back_bt">back button</string>
     <string name="nic_img">Picture of Nicolas</string>
     <string name="rom_img">Picture of Romulo</string>
     <string name="fla_img">Picture of Flavio</string>

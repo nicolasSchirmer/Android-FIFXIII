@@ -10,6 +10,7 @@
     <string name="sponsor_desc">Patrocinadores</string>
     <string name="ticket_img">Billetes</string>
     <string name="blank"> </string>
+    <string name="back_bt">voltar</string>
     <string name="nic_img">Foto do Nicolas</string>
     <string name="rom_img">Foto do Romulo</string>
     <string name="fla_img">Foto do Flavio</string>
