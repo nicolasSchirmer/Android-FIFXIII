@@ -99,6 +99,12 @@
         License: <a href="http://www.apache.org/licenses/LICENSE-2.0/">Apache</a>
     </string>
 
+    <string name="license_indicator">
+        <b>Circle Indicator</b>\n
+        <a href="https://github.com/ongakuer/CircleIndicator/">https://github.com/ongakuer/CircleIndicator</a>\n
+        License: <a href="http://www.apache.org/licenses/LICENSE-2.0/">Apache</a>
+    </string>
+
     <!-- SPONSORSHIP -->
     <string name="realization">Realization</string>
     <string name="sponsorship">Sponsors</string>

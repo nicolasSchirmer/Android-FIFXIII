@@ -56,7 +56,6 @@ public class ListGroupActivity extends AppCompatActivity {
 
         FirebaseDatabase database = mFireData.getDatabase();
 
-
         if(database != null) {
             DatabaseReference myRef = database.getReference("grupos/");
             myRef.addValueEventListener(new ValueEventListener() {

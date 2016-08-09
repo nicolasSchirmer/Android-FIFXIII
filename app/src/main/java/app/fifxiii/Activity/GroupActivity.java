@@ -2,10 +2,10 @@ package app.fifxiii.Activity;
 
 import android.content.Context;
 import android.content.Intent;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.TextView;
 
 import com.google.firebase.database.DataSnapshot;
@@ -15,11 +15,10 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.squareup.picasso.Picasso;
 
-import java.util.ArrayList;
-
-import app.fifxiii.ListGroup.ItemRowGroup;
+import app.fifxiii.PageViewGroup.PageAdapterGroup;
 import app.fifxiii.R;
 import app.fifxiii.mFireData;
+import me.relex.circleindicator.CircleIndicator;
 
 public class GroupActivity extends AppCompatActivity {
 
@@ -64,10 +63,10 @@ public class GroupActivity extends AppCompatActivity {
                             .fit().centerInside()
                             .into((ImageView) findViewById(R.id.flagGroup));
 
-                    Picasso.with(context)
-                            .load((String) snapshot.child(group + "/photo0").getValue())
-                            .fit().centerCrop()
-                            .into((ImageView) findViewById(R.id.imageMainGroup));
+                    ViewPager pageView = (ViewPager) findViewById(R.id.pageViewGroup);
+                    CircleIndicator indicator = (CircleIndicator) findViewById(R.id.indicatorGroup);
+                    pageView.setAdapter(new PageAdapterGroup(context, group));
+                    indicator.setViewPager(pageView);
                 }
 
                 @Override
