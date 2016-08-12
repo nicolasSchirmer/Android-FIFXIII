@@ -1,6 +1,7 @@
 package app.fifxiii.PageViewGroup;
 
 import android.content.Context;
+import android.support.v4.content.res.ResourcesCompat;
 import android.support.v4.view.PagerAdapter;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,6 +17,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.squareup.picasso.Picasso;
 
+import app.fifxiii.ListGroup.GroupLib;
 import app.fifxiii.R;
 import app.fifxiii.mFireData;
 
@@ -25,9 +27,9 @@ public class PageAdapterGroup extends PagerAdapter {
 
     Context context;
     LayoutInflater mLayoutInflater;
-    String group;
+    int group;
 
-    public PageAdapterGroup(Context context, String group) {
+    public PageAdapterGroup(Context context, int group) {
         this.context = context;
         this.group = group;
         mLayoutInflater = (LayoutInflater) this.context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -35,7 +37,7 @@ public class PageAdapterGroup extends PagerAdapter {
 
     @Override
     public int getCount(){
-        return 3;
+        return GroupLib.groupPics[group].length;
     }
 
     @Override
@@ -48,23 +50,7 @@ public class PageAdapterGroup extends PagerAdapter {
         View itemView = mLayoutInflater.inflate(R.layout.page_group_item, container, false);
         final ImageView imageView = (ImageView) itemView.findViewById(R.id.mainImageGroup);
 
-        FirebaseDatabase database = mFireData.getDatabase();
-        if(database != null) {
-            DatabaseReference myRef = database.getReference("grupos/");
-            myRef.addValueEventListener(new ValueEventListener() {
-                @Override
-                public void onDataChange(DataSnapshot snapshot) {
-                    Picasso.with(context)
-                            .load((String) snapshot.child(group + "/photo"+ String.valueOf(position)).getValue())
-                            .fit().centerCrop()
-                            .into(imageView);
-                }
-
-                @Override
-                public void onCancelled(DatabaseError firebaseError) {
-                }
-            });
-        }
+        imageView.setImageResource(GroupLib.groupPics[group][position]);
 
         container.addView(itemView);
         return itemView;

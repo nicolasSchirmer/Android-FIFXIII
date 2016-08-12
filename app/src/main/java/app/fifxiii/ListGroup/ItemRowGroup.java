@@ -2,7 +2,8 @@ package app.fifxiii.ListGroup;
 
 public class ItemRowGroup {
 
-    String name, contry, imgUrl;
+    String name, contry;
+    int img;
 
     public  ItemRowGroup(){}
 
@@ -22,11 +23,11 @@ public class ItemRowGroup {
         this.name = name;
     }
 
-    public String getImgUrlListGroup() {
-        return imgUrl;
+    public int getImgListGroup() {
+        return img;
     }
 
-    public void setImgUrlListGroup(String imgUrl) {
-        this.imgUrl = imgUrl;
+    public void setImglListGroup(int img) {
+        this.img = img;
     }
 }

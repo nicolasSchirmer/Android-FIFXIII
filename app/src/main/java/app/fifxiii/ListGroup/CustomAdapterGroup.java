@@ -51,7 +51,8 @@ public class CustomAdapterGroup extends ArrayAdapter<ItemRowGroup> {
 
         holder.name.setText(item.getNameListGroup());
         holder.country.setText(item.getContrGroupy());
-        Picasso.with(context).load(item.getImgUrlListGroup()).fit().centerInside().into(holder.img);
+        holder.img.setImageResource(item.getImgListGroup());
+        //Picasso.with(context).load(item.getImgListGroup()).fit().centerInside().into(holder.img);
 
 
         convertView.findViewById(R.id.rootLayoutGroup)

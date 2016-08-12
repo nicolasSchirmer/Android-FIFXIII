@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Festival PF XIII</string>
 
@@ -94,12 +95,6 @@
         License: <a href="http://opensource.org/licenses/MIT/">MIT</a>
     </string>
 
-    <string name="license_picasso">
-        <b>Picasso</b>\n
-        <a href="https://github.com/square/picasso/">https://github.com/square/picasso</a>\n
-        License: <a href="http://www.apache.org/licenses/LICENSE-2.0/">Apache</a>
-    </string>
-
     <string name="license_indicator">
         <b>Circle Indicator</b>\n
         <a href="https://github.com/ongakuer/CircleIndicator/">https://github.com/ongakuer/CircleIndicator</a>\n
@@ -119,23 +114,111 @@
     <!-- GROUPS -->
     <string name="title_groups">Groups</string>
 
+    <string name="g0name">ESTAMPAS NORTEÑAS</string>
+    <string name="g0country">Argentina</string>
+    <string name="g0desc"><b>The ASOCIACIÓN FOLKLÓRICA ESTAMPAS NORTEÑAS</b>, from Pirané - Formosa - Argentina, It began in May 1988 when a group of people, mostly young people, decided to form an organization to rescue, promote and project the true traditional culture of Argentina in general and especially formosenha particularly. He has in his direction Professor Ruben Luciano Vergara.\n\n The busy experience has been very valuable, managing to fill with hard work and sacrifice, a prominent place among the institutions of this type, having materialized activities and upcoming projects for our people and Taiwan province.\n\n
+        It was incorporated into the National Section of CIOFF Argentina, sharing not only ideal, but actively working to meet the multiple objectives of Section, <b>World CIOFF</b> and <b>UNESCO.</b></string>
+
+    <string name="g1name">Royal Art group Alkuone</string>
+    <string name="g1country">Belgium</string>
+    <string name="g1desc"><b>In 1957 Mr. Oscar Van Malder</b>, physical education teacher and dancer in Elza Darciel Dance Academy, started a group of flags launchers in "School Technica VTI" in the city of Aalst in Belgium Monarchist. Today, the Royal Group Artistic Alkuone is a dynamic group of teenagers with a passion for dance choreography, ballet with flags, drums and launch acrobatic flags. About 60 years ago, Alkuone makes performances - very successfully - in Belgium and in countries like the United States, Canada, China, Thailand, Qatar and most European countries. \n\n
+        Launch flags is a Flemish tradition. Alkuone presents it in a modern and spectacular way. For folk festivals the group performs the launch of traditional banners with percussion music. In traditional dress Real Group Artistic Alkuone brings movement and color in every parade, procession or show in the outdoors. Each year, Alkuone participates to the historical parade "De Ommegang" in the center of Brussels. \n\n
+        The Real Group Artistic Alkuone also makes thematic shows and cooperate enthusiastically in the demonstrations and large-scale shows. Alkuone offers a varied program of dance, ballet flags and launching flags outdoors and on a stage inside.</string>
+
+    <string name="g2name">Studio Dance and Art Expressions - SDAE</string>
+    <string name="g2country">Bolivia</string>
+    <string name="g2desc"><b>Dance Studio and Art Expressions - (SDAE- Bolivia)</b>, directed by Mauricio Gustavo Fernández García, has 8 years of training, and has at its base people linked to popular art and traditional dance of Bolivia. Are dancers with technique and interpretation. The institution works in the city of Cochabamba and has participated in festivals in Chile and Argentina. Your goal is to bring the folklore of Bolivia in its simplicity and splendor all. It has highlighted in its clothing and choreography originating in Bolivia.</string>
+
+    <string name="g3name">Easter Island - Tumu Henua</string>
+    <string name="g3country">Chile</string>
+    <string name="g3desc"><b>Rapa Nui Tumu Henua</b> founded in 1989 with deep inspiration and rescue INCREASING culture through music and dance Rapa Nui. The Group\'s main objective is the rescue of the Rapa Nui culture. \n\n
+        This is a job that could succeed throughout Chile and out of this, countries like France, Belgium, Holland, Germany, Poland, Switzerland, Italy, Spain, Taiwan ABORIGINAL FESTIVAL, Argentina, Peru and 6 times in Brazil and now returns to Passo Fundo after 14 years. Its Director and leader for 27 years is DON MIGUEL MUÑOZ (MIHA).</string>
+
+    <string name="g4name">International Folkloric Ballet Sonia Gómes</string>
+    <string name="g4country">Colombia</string>
+    <string name="g4desc"><b>The International Folkloric Ballet Sonia Gómes</b>, was founded in 1999, in the department (state) of Huila, in order to respond to the efforts for years took place in the region of Huila, and with the intention of preserving the Colombian culture through a professional group and to allow the development of dance, especially for children and young huilenses. \n\n
+        From the effort, dedication and research on the Colombian folklore, this being consolidated as one of the departments (states) most representative of Colombia, and this has allowed plant in the hearts of children and young people love the cultural wealth of the region. \n\n
+        International Folkloric Ballet Sonia Gómes, currently has 60 children and young people who dedicate themselves to "do" the dance in Huliense Academy of Dance and Ballet itself is touting the cultural heritage of his Department and Colombia. It has presented in several countries, their show with great success. In its Department (state), is considered the best group of folk and traditional dances. \n\n
+        Has participated in international festivals in Nicaragua, United States, Canada, Costa Rica, Dominican Republic, Ecuador, Mexico, Peru and Argentina. This is his first participation in Brazil.</string>
+
+    <!-- &amp; == & -->
+    <string name="g5name">WICI Song &amp; Dance Theatre</string>
+    <string name="g5country">USA</string>
+    <string name="g5desc"><b>WICI Group \- Music, Dance and Theatre</b> Chicago, Illinois, USA.\n\n
+        The WICI Song &amp; Dance Theatre group was formed in 1972 in Chicago. Its mission has been to promote Polish culture, both in the American community, and in Polish through songs, dance and music. In 1983 WICI group was established as a non-profit corporation charity of the State of Illinois. That same year, the company became a member of the group of representatives of the Polish National Alliance, the largest US Polish fraternal organization. \n\n
+        Over the years, the group has performed in several places, events in your city of origin and state events by the United States and in Europe. The group has received many prominent awards. More than 8,000 young people and adults have participated in activities developed by the group since its origin. The set consists of two groups totaling more than 300 dancers, musicians and artists. The children\'s group, Male WICI, was founded by Magdalena Solarz aiming to educate young dancers and prepare them for the adult group. The children\'s group currently comprises eight groups of children from 3 to 14 years old. Two hundred and fifty children dance in childhood, and the representative group consists of more than 40 teenagers and adults. The group is presented with the accompaniment of a live folk band. \n\n
+        Currently, WICI group performs about 60 performances a year. Recently, choreographers began to explore the folklore and the typical American music including country music and tap dancing. After a few months they set up a great country dance number called Cold Mountain (Cold Mountain), full of musical emotion, jumps, leaps and of course beautiful costumes. And because of the group\'s concern with its historical past, this wonderful number was incorporated into the regular repertoire of the same. This also opened doors for implementation of future new ideas. Since the mid half of the decade the group has performed in Canada, Colombia, France, Italy, Mexico, Poland, Portugal, and the United States running American and Polish programs.</string>
+
+    <!-- &#8211; == - -->
+    <string name="g6name">Folkloric Group Central Brazil (FGCB)</string>
+    <string name="g6country">Brazil - Goiás</string>
+    <string name="g6desc"><b>The Folkloric Central Brazil Group (FGCB)</b> was established in 2005 in the city of Annapolis, in order to preserve, enhance and disseminate the intangible heritage of the state of Goiás. \n\n
+        In 2006, the FGCB was recognized by CIOFF, as one of main folkloric representations of existing cultural events in Goiás territory. In 2010 it was recognized by IOV, as the cultural group that officially represents the state of Goiás in national and international festivals of folklore. The FGCB prepared thematic shows, as Goianas Parties (2005 &#8211; 2008) that valued the main folkloric status\; Goiás Sons (2009&#8211;2012) which released the goiano songbook. In 2012, it was taken over as applied research project to encourage voluntary teachers and students of the State University of Goiás (UEG) and the community to make and participate in research arising from the post&#8211;graduate program (TECCER) of this university. In this sense, it is proposed to build and communicate their individual identity and collective values ​​in a harmonious process, valuing local traditions through dances and folk songs raised through academic research. The FGCB seeks to promote cultural development through the preservation of the intangible assets, with the diffuser the cultural heritage of the state of Goiás and the projection of individual and collective identity of goiana culture in the national and international levels. \n\n
+        Under\'s aegis was prepared the show, Goianas Parties (2013&#8211;2014) presenting the main religious and secular celebrations of Goiás history. The FGCB was invited to give a presentation on the \"Fiesta de Santiago\", representing Brazil\'s 06 to 09 February 2014 in Santiago - Chile, which received support from the Ministry of Culture, which benefited from the transfer to Chile by the announcement of the Exchange and Cultural Diffusion program, which obtained the highest score by design . Currently, FGCB is under the direct supervision of the Dean of Goiás State University packed the General Coordination of Cultural UEG space which concentrates its activities on the street Baron of Rio Branco 559, Centro, Anapolis, Brazil. \n For the biennium 2015/2016 the GBFC presents the Cerrado colors script with 90 minutes representing the various aspects of cultural formation of Goiás people.</string>
+
+    <string name="g7name">Group of folk dances Inetnon Gef Pa\'go</string>
+    <string name="g7country">Guam</string>
+    <string name="g7desc"><b>The Group of folk dances Inetnon Gef Pa\'go</b> from Guam, Island located in Oceania for the first time will be in Brazil and Latin America. He has toward teacher Vincent Reyes. The meaning of Inetnon Gef Pa\'go, is an award-winning Cultural Arts Program, whose mission is to promote awareness and pride in Chamorro (language spoken in Guam), assets through performance arts. This is achieved through the interaction with the young traditional artists and teachers with community presentations and cultural exchange. \n\n
+        A group membership begins at school and at the University of Guam and continues in the community-based school program after the end of the regular courses. Throughout its years of existence, the program has had numerous performances and appearances throughout the island in cultural festivals competitive dance or not, has represented Guam in great deals of international tourism and festivals worldwide. It is led by the National Director of Guam Dance, Master Vince Reyes. Inetnon Gef Pa\'go is currently the 3rd place among the Culture and Arts Festival winners Buyukcekmece internationally acclaimed Buyukcekmece, Turkey. \n\n
+        <b>Danças Presented by Inetnon Gef Pa\'go</b>\nThe Bailan Linala or Dance of Life describes various stories, legends and tales island of Guam. The show begins by telling the story of the famous battle in Guam. This segment ends with the Bailan Uritao or dancing young men. The next segment tells the story of the legend Sirena and as a young maiden turned into a mermaid. The last segment tells the tale of forbidden lovers whose tragic fate transformation in the beautiful tree Call FLAME, found across the island. \n\n
+        The group is linked to the University of Guam, where students are selected and participate in this, it has intensive training for they can be hired as members of the group and the assemblies of the shows. They represent popular culture of Guam at events and festivals around the world. \n\n
+        Inetnon Gef Pa\'go possess great international reputation, having participated in major festivals such as, Martigues in France, Fribourg in Switzerland, Maribor in Slovenia also was awarded in competitive festivals Büyükçekmece in Turkey and Cheonan in South Korea. in addition to these countries has traveled with his show to New Zealand, Australia, United States (Hawaii, Washington DC, San Diego, Arizona), Japan, Macau, Netherlands, Switzerland , Croatia, Italy, Russia, Turkey, Romania, Samoa, Taiwan, Fiji, the Philippines, Slovenia, China, Palau, Hong Kong, Northern Mariana Islands community.</string>
+
+    <string name="g8name">Group Mārupieši Dance</string>
+    <string name="g8country">Latvia</string>
+    <string name="g8desc"><b>Group Mārupieši Dance</b> \nSince the founding in 1989 Mārupieši Group participated in various folkloric events and concerts every year and also in Latvian music festivals and dance to be held in Latvia. In addition to local concerts. The Mārupieši Group traveled and popularized the popular Latvian dance traditions abroad. With the charm, dancing and msotrando skills, dasbelas ladies and gentlemen of Latvia. They have done shows that thrilled the spectators too, taking s tears. \n\n
+        Represented Latvia in exotic countries such as Malaysia, Nepal, South Korea and China. Mārupieši participates in the competition of traditional dances kauss Salaspils and won the grand prize for 9 times, the last in 2014. No over time, the number of participants has grown and her dancers are aged from sixteen to fifty years. Friendship and sense of unity among dancers is something remarkable. \n\n
+        Middle-aged Lifestyle folk dance group is characterized by its slogan Through dance we live in! Charismatic and attractive Gunta Skuja has been the artistic leader of Mārupieši dance populargrupo from the day of the group\'s founding. She\'s got a lot of wisdom, choreographer known in Latvia, interpreter of several dozen new folk dances and several times has been the main artistic leader of the All-Latvian Song and Dance Festival Latvia. \n\n
+        Gunta Skuja put all their love, talent, energy, originality, sense of humor and diplomatic skills to popularize Mārupieši dance group one of the best known folk dance groups in Letónia. Mārupe is also the name of a city in half of Latvia, near Riga dacapital. It is characterized by a strong construction of life. It has areas and industrial facilities, although not lost countryside agricultural outradições. \n\n
+        But the cultural life is also very wide. There are several amateur groups of different interests for children, youth, adults and seniors. Many of those groups, including Mārupieši folk dance group have the Mārupe Culture.</string>
+
+    <string name="g9name">Violas Orchestra of Sao Gonçalo</string>
+    <string name="g9country">Brazil - Mato Grosso do Sul</string>
+    <string name="g9desc"><b>In this thirteenth edition</b> of the International Folklore Festival Passo Fundo, we getting for the first time a state representative group of Mato Grosso do Sul, one of the cradles of viola Brazil. This is the Violas Orchestra of Sao Goncalo. It is a private, nonprofit, working in the research and dissemination of the culture of viola. It was founded in October 2009 with the aim of promoting the teaching and dissemination of this instrument in a region where its presence was manifested timidly. \n\n
+        The classes are <b>free</b> and the methodology seeks to approach music with high cultural value to the instrument, as well as to the Brazilian culture. These songs range from what is known by music root, cabocla music, and other music, fruit of the instrument valuation movement viola, which is currently felt in Brazil, whose main exponents are composers like Pereira da Viola, Paulo Freire, Levi Ramiro, Julius Santín, John the Evangelist and Chico Lobo, to name a few. \n\n
+        The Violas orchestra Sao Goncalo, not only presents annually at the meeting of Folklore Toro Candil, it is also an important partner of the event, along with Cultural Association Amambaiense. This and event, which in 2014 completed its seventh edition is aimed at enhancement of the border cultural peculiarities between Brazil and Paraguay, with a strong influence of ervateiro world.</string>
+
+    <string name="g10name">Mexican Fiesta Folkloric Ballet Group</string>
+    <string name="g10country">Mexico</string>
+    <string name="g10desc"><b>FIESTA MEXICAN Folkloric Ballet</b>, began operations on 26 October 1987 in response to concerns of a group of dancers entrepreneurs who decide to form a folkloric ballet with the purpose of spreading the cultural roots of our country. Ballet reached goals, created a particular style, leading to stage a folkloric show with professionalism and aesthetics, which is going through one of his first major challenges stand in the cultural arts scene. \n\n
+        MEXICAN FIESTA is a ballet in which, alongside the different performa and knowledge of National Folklore techniques, which contributes to the development and personality maturity of its members, also by promoting the values ​​of a clean and healthy thinking. \n\n
+        Today, after 29 years of effort and continuous work, has established itself as one of the most important groups of their status, expanding its structure in different groups: International Fiesta Mexicana, Jr. and Founders Fiesta Mexicana Fiesta Mexicana. Group of independent and large trajectory, that was created with the ideal firm and enthusiasm today maintains the principles and objectives of his birth, keeping the commitment to disclosure and present their show with professionalism, true to its name, its status and of his country: Mexico.</string>
+
+    <string name="g11name">Dance group Pasos Lejanos</string>
+    <string name="g11country">Peru</string>
+    <string name="g11desc"><b>Dance group Pasos Lejanos University Cesar Vallejo (Trujillo - Peru)</b>, with 22 years of experience together has as its director Dr. Stany Ayala Rivera with over 37 years of experience in the dissemination of folklore within and outside the country.. He has represented Peru in countries such as Canada, Italy, Colombia and Costa Rica. \n\n
+        Moreover, it was the positive response, extending the invitation on behalf of the founder promoter César Vallejo University Ing. Cesar Acuña Peralta, the reason that rely on it allows students and their director.</string>
+
+    <!-- &#233; == é -->
+    <string name="g12name">Dance groups and Music Médoune Thiam\nSuper Jamm\nAfrika Music Show</string>
+    <string name="g12country">Senegal</string>
+    <string name="g12desc">The music Médoune Thiam transitions between African Mbalax and african-Cuban, through traditional jazz, giving a varied pace and different songs. In general, the musical vision group is bold and often does not seem to have a musical hierarchy. Refusing to \'musical order\' is the first feature of creativity, it can be said that Super Jamm, no doubt, is one of the pioneers of the new Senegalese music. The message of the group\'s music does not distinguish races or colors. It can be defined as a message without borders. The topics are varied, as the inspiration and feel of the group in relation to the events.\n\n
+        The first musical production Médoune Thiam, July 2005, was called \"Reference\". This first work was a call to his generation, his people, in Africa and around the world, not only its values ​​and its causes, but what is needed. In \"Reference\", Médoune Thiam paraphrases Marcus Garvey, saying that \"a people without civilization without culture, without a past, is like a tree without roots.\" Thiam says his confidence in the youth of his country, Africa and the world, especially to the young people participating in the future of a new world where man appreciates and respects his fellow man. This is in several parts of his work \"Homage\" Masha Allah \"and\" Mister Ali, Ana Diw, Kay Way \". He firmly believes that other world of peace, love and justice. This is the meaning of his musical production, expected by many fans. It can be said without doubt that Médoune Thiam is a messenger of fruitful ideas and diverse able to say and feel comfortable in any setting. \n\n
+        <b>Super Jamm</b>\nMédoune Thiam and his group of friends got in a short time to gather and present a worthy musical training name. In fact, the composition of Super Jamm remains varied due to the many musicians who do it or took part. However, Thiam has a considerable asset that brings confidence to the members of his group: \"Super Jamm is a family,\" as he likes to say.</string>
+
+    <string name="g13name">Popular Dance Company Danzamérica</string>
+    <string name="g13country">Uruguai</string>
+    <string name="g13desc">This year the festival will for the first time a representative group of Uruguay, in partnership with FEBRARP. \n\n
+        <b>Popular Dance Company Danzamérica</b>\nThe CIA Group FOLK DANCE \"DANZAMÉRICA\", was founded in 1988 with the aim of keeping alive the folk traditions of Uruguay. It works with different themes and techniques applied the popular dances. It presents dances and carnivals in several regions of Uruguay. Has represented his country in Panama, France, Argentina, Spain, Chile, Brazil, and others. \n\n
+        Develops work on projects dedicated to education and preservation of popular culture in his country. Conducted more than 1,500 presentations in Uruguay. Performs tango workshops, salsa, and various aspects of folklore. This will be a great opportunity that the community of Passo Fundo and the region will have to live and learn about the culture of the neighboring country.</string>
+
     <!-- AOFFERS -->
     <string name="title_aoffers">AOFFERS</string>
     <string name="place_aoffers">Av. Gen. Neto, 145\nPasso Fundo - RS</string>
     <string name="text_aoffers">
-    <b>The Association of Folklore Festivals Organizations of Rio Grande do Sul State (AOFFERS)</b>\n\n
-        AOFFERS, The Association of Folklore Festivals Organizations of Rio Grande do Sul State (AOFFERS) is a nonprofit nongovernmental organization based in Passo Fundo City – RS. AOFFERS succeeded the CIOFF Rio Grande do Sul State Section, accordingly to the recent state reform.\n\n
-        The Association main objective is to organize the Passo Fundo International Folklore Festival. The Festival is officially recognized by World CIOFF – International Council of Traditional Arts and Folklore Festivals Organization, being directly related to UNESCO.\n\n
-        - Also, it is its goal to serve UNESCO principles, such as the WORLD PEACE, and also with those ones related to the Traditional Arts and Culture.\n
-        - To promote Passo Fundo City, Rio Grande do Sul Sate and Brazil, in the culture field, specifically related to traditional arts and folklore.\n
-        - Provide to the gaucho people the opportunity to attend high-level shows at home, during the events that supports and carries out.\n
-        - Integrate the local people and costumes to other people, through dance workshops, conversations and street parades.\n
-        - Promote cultural exchange among the international and domestic participants.\n
-        - Sensitive the community to the importance of diversity, through the history of the participating states and countries.\n\n
-         AOFFERS, helped by the Public Sector, entities and volunteers is responsible of planning, organizing and executing Passo Fundo International Festival of Folklore, with the same objectives and formats of previous editions.\n\n
-    <b>The Festival Format</b>\n
-        The Passo Fundo International Folklore Festival starts to come together in January of the previous year before completing the creative projects. Each work committee organizes its activities with the volunteers and makes the training for them. The groups who are invited to participate in the event pay for their air tickets from their state or country from origin to the airport in the capital of Rio Grande do Sul State or to Passo Fundo City. \n\n
-        The festival is the responsible for the transportation from the borders with Brazil or the nearest airport. The festival doesn’t pay fee and, in some exceptional cases, pays for a small subsistence allowance according to the CIOFF rules. The Festival is responsible for the performances structure (physical space, lighting, sound, photos, filming, etc), publicizing, lodging, catering service and local transportation for national and international dancing groups.
+        <b>The Association of Folklore Festivals Organizations of Rio Grande do Sul State (AOFFERS)</b>\n\n
+            AOFFERS, The Association of Folklore Festivals Organizations of Rio Grande do Sul State (AOFFERS) is a nonprofit nongovernmental organization based in Passo Fundo City – RS. AOFFERS succeeded the CIOFF Rio Grande do Sul State Section, accordingly to the recent state reform.\n\n
+            The Association main objective is to organize the Passo Fundo International Folklore Festival. The Festival is officially recognized by World CIOFF – International Council of Traditional Arts and Folklore Festivals Organization, being directly related to UNESCO.\n\n
+            - Also, it is its goal to serve UNESCO principles, such as the WORLD PEACE, and also with those ones related to the Traditional Arts and Culture.\n
+            - To promote Passo Fundo City, Rio Grande do Sul Sate and Brazil, in the culture field, specifically related to traditional arts and folklore.\n
+            - Provide to the gaucho people the opportunity to attend high-level shows at home, during the events that supports and carries out.\n
+            - Integrate the local people and costumes to other people, through dance workshops, conversations and street parades.\n
+            - Promote cultural exchange among the international and domestic participants.\n
+            - Sensitive the community to the importance of diversity, through the history of the participating states and countries.\n\n
+             AOFFERS, helped by the Public Sector, entities and volunteers is responsible of planning, organizing and executing Passo Fundo International Festival of Folklore, with the same objectives and formats of previous editions.\n\n
+        <b>The Festival Format</b>\n
+            The Passo Fundo International Folklore Festival starts to come together in January of the previous year before completing the creative projects. Each work committee organizes its activities with the volunteers and makes the training for them. The groups who are invited to participate in the event pay for their air tickets from their state or country from origin to the airport in the capital of Rio Grande do Sul State or to Passo Fundo City. \n\n
+            The festival is the responsible for the transportation from the borders with Brazil or the nearest airport. The festival doesn’t pay fee and, in some exceptional cases, pays for a small subsistence allowance according to the CIOFF rules. The Festival is responsible for the performances structure (physical space, lighting, sound, photos, filming, etc), publicizing, lodging, catering service and local transportation for national and international dancing groups.
     </string>
 
 </resources>
