@@ -6,17 +6,12 @@
     android:elevation="16dp"
     tools:context=".Activity.ScheduleActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:padding="@dimen/activity_horizontal_margin"
-        android:text="@string/soon"
-        android:gravity="center"
-        android:id="@+id/textView3"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
-
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/textView2" />
 
     <android.support.v7.widget.Toolbar
         app:contentInsetStart="0dp"
@@ -39,4 +34,17 @@
             />
 
     </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Agenda provisória"
+        android:id="@+id/textView2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

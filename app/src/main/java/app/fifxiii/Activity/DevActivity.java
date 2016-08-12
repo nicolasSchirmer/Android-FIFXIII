@@ -102,6 +102,8 @@ public class DevActivity extends AppCompatActivity {
         menu.close();
     }
 
+
+
     private void prepareChangeActivity(final Class mClass){
         menu.close();
 

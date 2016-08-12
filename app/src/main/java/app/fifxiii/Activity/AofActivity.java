@@ -99,6 +99,8 @@ public class AofActivity extends AppCompatActivity {
         menu.close();
     }
 
+
+
     private void prepareChangeActivity(final Class mClass){
         menu.close();
 

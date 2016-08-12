@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/rounded_corner"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="@string/realization"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_gravity="center_horizontal"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_corner_wselector"
+                android:clickable="true"
+                android:onClick="facebookClick"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight = "1">
+
+                <ImageView
+                    android:id="@+id/imagePrefeituraPassoFundo"
+                    android:contentDescription="@string/facebook"
+                    android:src="@drawable/ppassofundo"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_corner_wselector"
+                android:clickable="true"
+                android:onClick="youtubeClick"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight = "1">
+
+                <ImageView
+                    android:id="@+id/imageCIOFF"
+                    android:src="@drawable/pcioff"
+                    android:contentDescription="@string/youtube"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_gravity="center_horizontal"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_corner_wselector"
+                android:clickable="true"
+                android:onClick="instagramClick"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight = "1">
+
+                <ImageView
+                    android:id="@+id/imageInstagram"
+                    android:src="@mipmap/ic_instagram"
+                    android:contentDescription="@string/instagram"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_corner_wselector"
+                android:clickable="true"
+                android:onClick="twitterClick"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight = "1">
+
+                <ImageView
+                    android:id="@+id/imageTwitter"
+                    android:src="@mipmap/ic_twitter"
+                    android:contentDescription="@string/twitter"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

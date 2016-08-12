@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/rounded_corner"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="@string/sponsorship"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_gravity="center_horizontal"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_corner_wselector"
+                android:clickable="false"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight = "1">
+
+                <ImageView
+                    android:id="@+id/imageSaoJoao"
+                    android:contentDescription="@string/facebook"
+                    android:src="@drawable/psaojoao"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_corner_wselector"
+                android:clickable="false"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight = "1">
+
+                <ImageView
+                    android:id="@+id/imageZaffari"
+                    android:src="@drawable/pzaffari"
+                    android:contentDescription="@string/youtube"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_gravity="center_horizontal"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_corner_wselector"
+                android:clickable="false"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight = "1">
+
+                <ImageView
+                    android:id="@+id/imageCorsan"
+                    android:src="@drawable/pcorsan"
+                    android:contentDescription="@string/instagram"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_corner_wselector"
+                android:clickable="false"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight = "1">
+
+                <ImageView
+                    android:id="@+id/imageSulGas"
+                    android:src="@drawable/psulgas"
+                    android:contentDescription="@string/twitter"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_gravity="center_horizontal"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_corner_wselector"
+                android:clickable="false"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight = "1">
+
+                <ImageView
+                    android:id="@+id/imageBanrisul"
+                    android:src="@drawable/pitaipu"
+                    android:contentDescription="@string/instagram"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_corner_wselector"
+                android:clickable="false"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight = "1">
+
+                <ImageView
+                    android:id="@+id/imageGovRS"
+                    android:src="@drawable/prs"
+                    android:contentDescription="@string/twitter"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_gravity="center_horizontal"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_corner_wselector"
+                android:clickable="false"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight = "1">
+
+                <ImageView
+                    android:id="@+id/imageItaipu"
+                    android:src="@drawable/pitaipu"
+                    android:contentDescription="@string/instagram"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_corner_wselector"
+                android:clickable="false"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight = "1">
+
+                <ImageView
+                    android:id="@+id/imageUPF"
+                    android:src="@drawable/pitaipu"
+                    android:contentDescription="@string/twitter"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_gravity="center_horizontal"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_corner_wselector"
+                android:clickable="false"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight = "1">
+
+                <ImageView
+                    android:id="@+id/imageJbs"
+                    android:src="@drawable/pitaipu"
+                    android:contentDescription="@string/instagram"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_corner_wselector"
+                android:clickable="false"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight = "1">
+
+                <ImageView
+                    android:id="@+id/imageLast"
+                    android:src="@drawable/psulgas"
+                    android:contentDescription="@string/twitter"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

@@ -173,6 +173,8 @@ public class InfoActivity extends AppCompatActivity {
         prepareChangeActivity(AofActivity.class);
     }
 
+
+
     public void devClick(View view){
         prepareChangeActivity(DevActivity.class);
     }

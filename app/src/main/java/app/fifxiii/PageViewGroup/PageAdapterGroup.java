@@ -6,7 +6,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
 import com.google.firebase.database.DataSnapshot;
@@ -50,7 +49,7 @@ public class PageAdapterGroup extends PagerAdapter {
 
         FirebaseDatabase database = mFireData.getDatabase();
         if(database != null) {
-            DatabaseReference myRef = database.getReference("grupos/");
+            DatabaseReference myRef = database.getReference("grupos-en/");
             myRef.addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(DataSnapshot snapshot) {

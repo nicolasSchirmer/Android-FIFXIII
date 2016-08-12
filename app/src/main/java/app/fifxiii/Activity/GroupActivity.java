@@ -52,7 +52,8 @@ public class GroupActivity extends AppCompatActivity {
         FirebaseDatabase database = mFireData.getDatabase();
 
         if (database != null) {
-            DatabaseReference myRef = database.getReference("grupos/");
+            // TODO language suport ...+ Locale.getDefault().getLanguage()...  en, es, pt, fr, de
+            DatabaseReference myRef = database.getReference("grupos-en/");
             myRef.addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(DataSnapshot snapshot) {

@@ -58,7 +58,7 @@ public class ListGroupActivity extends AppCompatActivity {
 
 
         if(database != null) {
-            DatabaseReference myRef = database.getReference("grupos/");
+            DatabaseReference myRef = database.getReference("grupos-en/");
             myRef.addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(DataSnapshot snapshot) {
@@ -116,6 +116,7 @@ public class ListGroupActivity extends AppCompatActivity {
     public void devClick(View view){
         prepareChangeActivity(DevActivity.class);
     }
+
 
     private void prepareChangeActivity(final Class mClass){
         menu.close();

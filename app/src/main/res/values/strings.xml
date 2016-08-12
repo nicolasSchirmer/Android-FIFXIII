@@ -54,7 +54,7 @@
 
     <string name="phone">+55 54 3045 1415\n+55 54 9981 1893</string>
     <string name="email">cioffrs@annex.com.br</string>
-    <string name="place">Parque da Gare\nVila Lucas Araujo\nPasso Fundo - RS</string>
+    <string name="place">Parque da Gare\nPasso Fundo - RS</string>
     <string name="site">festivalpf.com.br</string>
 
     <string name="youtube">YouTube</string>
@@ -137,5 +137,276 @@
         The Passo Fundo International Folklore Festival starts to come together in January of the previous year before completing the creative projects. Each work committee organizes its activities with the volunteers and makes the training for them. The groups who are invited to participate in the event pay for their air tickets from their state or country from origin to the airport in the capital of Rio Grande do Sul State or to Passo Fundo City. \n\n
         The festival is the responsible for the transportation from the borders with Brazil or the nearest airport. The festival doesn’t pay fee and, in some exceptional cases, pays for a small subsistence allowance according to the CIOFF rules. The Festival is responsible for the performances structure (physical space, lighting, sound, photos, filming, etc), publicizing, lodging, catering service and local transportation for national and international dancing groups.
     </string>
+
+    <!-- DAY 01 -->
+    <string name="title_day01">12.08.16</string>
+<string name="text_day01">
+
+<b>Apresentação Noturna</b> \n
+<b>Horário: </b>19:30 \n
+<b>Local: </b>Casarão da Cultura \n
+<b>Grupos: </b> Coreografia de abertura (Grupo Timbre de Galo, Baillar e Cia Caripaiguarás), cerimônia de abertura, CTG Lalau Miranda (adulta e xirua) campeão adulto Força A Enart regional Passo Fundo, Argentina, Bélgica, Bolívia, Chile (Ilha de Páscoa), Colômbia, Estados Unidos, Goiás, Guam, Letônia, Mato Grosso do Sul, México, Perú, Senegal, Uruguai.\n\n
+
+<b>Desfile de Rua</b> \n
+<b>Horário: </b>17:30 \n
+<b>Local: </b>Centro, iniciando na Rua Moron, intersecção com a Rua Fagundes dos Reis até a Rua Coronel Chicuta\n\n
+
+
+<b>Apresentações Diversas</b> \n
+16:30 - Quiosque Roberto Pirovano Zanatta – Praça Hosp Cidade – Perú\n
+17:00 - Stok Center Petrópolis – México\n
+17:00 - Praça Teixeirinha – Farmácias São João – Bélgica\n
+17:30 - Bella Città Shopping – Letônia\n
+17:30 - Supermercado Bourbon – México\n
+17:30 - Supermercado Záffari Bom Conselho – Perú\n
+
+</string>
+
+    <!-- DAY 02 -->
+    <string name="title_day02">13.08.16</string>
+<string name="text_day02">
+
+<b>Apresentação Noturna</b> \n
+<b>Horário: </b>19:30 \n
+<b>Local: </b>Casarão da Cultura \n
+<b>Grupos: </b> Coreografia de abertura, CTG Felipe Portinho (Pré Mirim, Mirim e Juvenil – vencedores do Enartinho 2016 7ª. RT) de Marau, Bélgica, Estados Unidos, Goiás, Guam, Letônia, Senegal.\n\n
+
+<b>Desfile de Rua</b> \n
+<b>Horário: </b>10:30 \n
+<b>Local: </b>Centro, iniciando na Rua Moron, intersecção com a Rua Fagundes dos Reis até a Rua Coronel Chicuta\n\n
+
+<b>Apresentações Diversas</b> \n
+17h: Stok Center Petrópolis – Senegal\n
+17h: Praça Teixeirinha – Farmácias São João – Guam\n
+17h 30min: Bella Città Shopping - Bélgica\n
+17h 30min: Bourbon – Estados Unidos\n
+17h 30min: Supermercado Záffari Bella Città – Guam\n
+17h e 30min: Supermercado Záffari Pellegrini – Senegal\n
+
+</string>
+
+    <!-- DAY 03 -->
+    <string name="title_day03">14.08.16</string>
+<string name="text_day03">
+
+<b>Apresentação Noturna</b> \n
+<b>Horário: </b>19:30 \n
+<b>Local: </b>Casarão da Cultura \n
+<b>Grupos: </b> Coreografia de abertura, Grupo Terra Pampeana de Passo Fundo, Cia. Caripaiguarás de Guaporé, Argentina, Bolívia, Chile (Ilha de Páscoa), Mato Grosso do Sul, México, Perú.\n\n
+
+<b>Desfile de Rua</b> \n
+<b>Horário: </b>17:30 \n
+<b>Local: </b>Centro, iniciando na Rua Moron, intersecção com a Rua Fagundes dos Reis até a Rua Coronel Chicuta\n\n
+
+<b>Missa Folclórica</b> \n
+<b>Horário: </b>17:30 \n
+<b>Local: </b>Catedral Metropolitana de Nossa Senhora Aparecida\n
+
+<b>Apresentações Diversas</b> \n
+16h: Gare Anfiteatro - Bélgica e Colômbia\n
+
+
+</string>
+
+    <!-- DAY 04 -->
+    <string name="title_day04">15.08.16</string>
+<string name="text_day04">
+
+<b>Apresentação Noturna</b> \n
+<b>Horário: </b>19:30 \n
+<b>Local: </b>Casarão da Cultura \n
+<b>Grupos: </b> Coreografia de abertura,  CTG Tropel de Caudilhos (adulta e xirua) e Agrupamento Biriva Tropeiros do Goyoen - Passo Fundo, Bélgica, Colômbia, Goiás, Letônia, Senegal, Uruguai.\n\n
+
+<b>Desfile de Rua</b> \n
+<b>Horário: </b>17:30 \n
+<b>Local: </b>Centro, iniciando na Rua Moron, intersecção com a Rua Fagundes dos Reis até a Rua Coronel Chicuta\n\n
+
+<b>Oficina de Dança</b> \n
+<b>Horário: </b>14:00 \n
+<b>Local: </b>Bella Città Shopping – Praça de Alimentação – 2º andar \n
+<b>Grupo: </b> Mato Grosso do Sul \n\n
+
+<b>Oficina de Dança</b> \n
+<b>Horário: </b>15:00 \n
+<b>Local: </b>Bella Città Shopping – Praça de Alimentação – 2º andar \n
+<b>Grupo: </b> México \n\n
+
+<b>Oficina de Dança</b> \n
+<b>Horário: </b>16:00 \n
+<b>Local: </b>Bella Città Shopping – Praça de Alimentação – 2º andar \n
+<b>Grupo: </b> Chile (Ilha de Páscoa) \n\n
+
+<b>Apresentações Diversas</b> \n
+10h30: Posto de Gás, Av. Brasil Oeste, 3438, Boqueirão - Bélgica\n
+16h: Biblioteca Pública - Bolívia\n
+17h: Stok Center Petrópolis – Bolívia\n
+17h: Praça Teixeirinha – Farmácias São João – Argentina\n
+17h e 30min: Bella Città Shopping - Argentina\n
+
+</string>
+
+    <!-- DAY 05 -->
+    <string name="title_day05">16.08.16</string>
+<string name="text_day05">
+
+<b>Apresentação Noturna</b> \n
+<b>Horário: </b>19:30 \n
+<b>Local: </b>Casarão da Cultura \n
+<b>Grupos: </b> Coreografia de abertura, Grupo Tebanos do Igaí (adulta e xirua) - Passo Fundo, Argentina, Bolívia, Chile (Ilha de Páscoa), Estados Unidos, México, Perú.\n\n
+
+<b>Desfile de Rua</b> \n
+<b>Horário: </b>17:30 \n
+<b>Local: </b>Centro, iniciando na Rua Moron, intersecção com a Rua Fagundes dos Reis até a Rua Coronel Chicuta\n\n
+
+<b>Oficina de Dança</b> \n
+<b>Horário: </b>14:00 \n
+<b>Local: </b>Bella Città Shopping – Praça de Alimentação – 2º andar \n
+<b>Grupo: </b> Uruguai\n\n
+
+<b>Oficina de Dança</b> \n
+<b>Horário: </b>15:00 \n
+<b>Local: </b>Bella Città Shopping – Praça de Alimentação – 2º andar \n
+<b>Grupo: </b>Colômbia \n\n
+
+<b>Oficina de Dança</b> \n
+<b>Horário: </b>16:00 \n
+<b>Local: </b>Bella Città Shopping – Praça de Alimentação – 2º andar \n
+<b>Grupo: </b>Letônia \n\n
+
+<b>Apresentações Diversas</b> \n
+11h30: UPF Centro de Convivência - Perú\n
+17h: Stok Center Petrópolis – Guam\n
+17h: Praça Teixeirinha – Farmácias São João – Estados Unidos\n
+17h e 30min: Bella Città Shopping – Estados Unidos\n
+</string>
+
+    <!-- DAY 06 -->
+    <string name="title_day06">17.08.16</string>
+<string name="text_day06">
+
+<b>Apresentação Noturna</b> \n
+<b>Horário: </b>19:30 \n
+<b>Local: </b>Casarão da Cultura \n
+<b>Grupos: </b> Coreografia de abertura, CTG Dom Luiz Felipe de Nadal (Adulta), CTG Osório Porto (Adulta e Xirua) – Passo Fundo, Bélgica, Colômbia, Guam, Mato Grosso do Sul, Senegal, Uruguai.\n\n
+
+<b>Desfile de Rua</b> \n
+<b>Horário: </b>17:30 \n
+<b>Local: </b>Centro, iniciando na Rua Moron, intersecção com a Rua Fagundes dos Reis até a Rua Coronel Chicuta\n\n
+
+<b>Oficina de Dança</b> \n
+<b>Horário: </b>14:00 \n
+<b>Local: </b>Bella Città Shopping – Praça de Alimentação – 2º andar \n
+<b>Grupo: </b>Estados Unidos \n\n
+
+<b>Oficina de Dança</b> \n
+<b>Horário: </b>15:00 \n
+<b>Local: </b>Bella Città Shopping – Praça de Alimentação – 2º andar \n
+<b>Grupo: </b>Argentina\n\n
+
+<b>Oficina de Dança</b> \n
+<b>Horário: </b>16:00 \n
+<b>Local: </b>Bella Città Shopping – Praça de Alimentação – 2º andar \n
+<b>Grupo: </b>Goiás\n\n
+
+<b>Apresentações Diversas</b> \n
+15h: Bourbon – Chile (Ilha de Páscoa)\n
+16h: Stok Center Petrópolis – Chile (Ilha de Páscoa)\n
+17h: Praça Teixeirinha – Farmácias São João – México\n
+17h e 30min: Bella Città Shopping – Perú\n
+17h e 30min: Supermercado Záffari Bella Città - México\n
+
+</string>
+
+    <!-- DAY 07 -->
+    <string name="title_day07">18.08.16</string>
+<string name="text_day07">
+
+<b>Apresentação Noturna</b> \n
+<b>Horário: </b>19:30 \n
+<b>Local: </b>Casarão da Cultura \n
+<b>Grupos: </b> Coreografia de abertura, DT Juvenil (Adulta e Xirua) e CTG Fagundes dos Reis (Adulta) Passo Fundo – Argentina, Estados Unidos, Goiás, Guam, Letônia, México.\n\n
+
+<b>Desfile de Rua</b> \n
+<b>Horário: </b>17:30 \n
+<b>Local: </b>Centro, iniciando na Rua Moron, intersecção com a Rua Fagundes dos Reis até a Rua Coronel Chicuta\n\n
+
+<b>Oficina de Dança</b> \n
+<b>Horário: </b>14:00 \n
+<b>Local: </b>Bella Città Shopping – Praça de Alimentação – 2º andar \n
+<b>Grupo: </b>Peru\n\n
+
+<b>Oficina de Dança</b> \n
+<b>Horário: </b>15:00 \n
+<b>Local: </b>Bella Città Shopping – Praça de Alimentação – 2º andar \n
+<b>Grupo: </b>Bélgica\n\n
+
+<b>Oficina de Dança</b> \n
+<b>Horário: </b>16:00 \n
+<b>Local: </b>Bella Città Shopping – Praça de Alimentação – 2º andar \n
+<b>Grupo: </b>Guam\n\n
+
+<b>Apresentações Diversas</b> \n
+11h e 30min: UPF Centro de Convivência – Estados Unidos\n
+17h: Stok Center Petrópolis – Argentina\n
+17h: Praça Teixeirinha – Farmácias São João – Bolívia\n
+17h: Farmácia São João – Praça Tochetto – Mato Grosso do Sul\n
+17h e 30min: Bella Città Shopping – Bolívia\n
+
+</string>
+
+    <!-- DAY 08 -->
+    <string name="title_day08">19.08.16</string>
+<string name="text_day08">
+
+<b>Apresentação Noturna</b> \n
+<b>Horário: </b>19:30 \n
+<b>Local: </b>Casarão da Cultura \n
+<b>Grupos: </b> Coreografia e abertura – Grupo Folclórico da UPF, Grupo Pupilas da Aldeia CREATI – UPF - CREJUTI Bem Viver (Clube Juvenil) de Passo Fundo, Bolívia, Chile (Ilha de Páscoa), Colômbia, Mato Grosso do Sul, Perú, Uruguai.\n\n
+
+<b>Desfile de Rua</b> \n
+<b>Horário: </b>17:30 \n
+<b>Local: </b>Centro, iniciando na Rua Moron, intersecção com a Rua Fagundes dos Reis até a Rua Coronel Chicuta\n\n
+
+<b>Oficina de Dança</b> \n
+<b>Horário: </b>15:00 \n
+<b>Local: </b>Bella Città Shopping – Praça de Alimentação – 2º andar \n
+<b>Grupo: </b>Senegal\n\n
+
+<b>Oficina de Dança</b> \n
+<b>Horário: </b>16:00 \n
+<b>Local: </b>Bella Città Shopping – Praça de Alimentação – 2º andar \n
+<b>Grupo: </b>Bolivía\n\n
+
+<b>Apresentações Diversas</b> \n
+9h e 30min: UPF Faculdade de Direito - Argentina\n
+17h: Stok Center Petrópolis – Letônia\n
+17h: Praça Teixeirinha – Farmácias São João – Estados Unidos\n
+17h e 30min: Bella Città Shopping – Chile (Ilha de Páscoa\n
+17h e 30min: Supermercado Záffari Vergueiro – Estados Unidos\n
+17h e 30min: Supermercado Záffari São Cristóvão – Letônia\n
+20h e 50min: UPF Faculdade de Direito - Argentina\n
+</string>
+
+    <!-- DAY 09 -->
+    <string name="title_day09">20.08.16</string>
+<string name="text_day09">
+
+<b>Apresentação Noturna</b> \n
+<b>Horário: </b>19:30 \n
+<b>Local: </b>Casarão da Cultura \n
+<b>Grupos: </b> Coreografia de abertura, cerimônia de encerramento,  DT Industrial (adulta) (campeão adulto Força B Enart regional) – Passo Fundo – Argentina, Bélgica, Bolívia, Chile (Ilha de Páscoa), Colômbia, Estados Unidos, Goiás, Guam, Letônia, Mato Grosso do Sul, México, Perú, Senegal, Uruguai. \n\n
+
+<b>Desfile de Rua</b> \n
+<b>Horário: </b>10:30 \n
+<b>Local: </b>Centro, iniciando na Rua Moron, intersecção com a Rua Fagundes dos Reis até a Rua Coronel Chicuta\n\n
+
+<b>Apresentações Diversas</b> \n
+17h: Stok Center Petrópolis – Uruguai\n
+17h: Praça Teixeirinha – Farmácias São João – Colômbia\n
+17h e 30min: Bourbon - Uruguai\n
+17h e 30min: Bella Città Shopping – México\n
+17h e 30min: Supermercado Záffari Bella Città – Estados Unidos\n
+
+</string>
 
 </resources>
