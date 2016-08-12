@@ -15,6 +15,9 @@
     <string name="nic_img">Picture of Nicolas</string>
     <string name="rom_img">Picture of Romulo</string>
     <string name="fla_img">Picture of Flavio</string>
+    <string name="watch_img">Spot watch</string>
+    <string name="curtain">Curtain event</string>
+    <string name="map">Map</string>
 
     <string name="soon">Soon.\n\nKeep your app up to date to receive our news!</string>
 

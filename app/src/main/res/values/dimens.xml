@@ -8,4 +8,6 @@
     <dimen name="action_bar_overflow_padding_start_material">6dp</dimen>
 
     <dimen name="margin_btn_menu">50dp</dimen>
+
+    <dimen name="mini_ic">20dp</dimen>
 </resources>

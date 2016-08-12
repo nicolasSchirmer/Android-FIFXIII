@@ -10,7 +10,6 @@
     android:layout_height="165dp">
 
     <ImageView
-        android:contentDescription="@string/flag"
         android:id="@+id/imageGroupList"
         android:layout_width="80dp"
         android:layout_height="80dp"
