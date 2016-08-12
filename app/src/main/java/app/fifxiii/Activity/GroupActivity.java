@@ -62,6 +62,7 @@ public class GroupActivity extends AppCompatActivity {
         ImageView imageView = (ImageView) findViewById(R.id.flagGroup);
         imageView.setImageDrawable(ResourcesCompat.getDrawable(getResources(), GroupLib.groupFlag[group], null));
 
+        // page viewr
         ViewPager pageView = (ViewPager) findViewById(R.id.pageViewGroup);
         CircleIndicator indicator = (CircleIndicator) findViewById(R.id.indicatorGroup);
         pageView.setAdapter(new PageAdapterGroup(context, group));

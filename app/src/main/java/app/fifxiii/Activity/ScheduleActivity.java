@@ -2,13 +2,17 @@ package app.fifxiii.Activity;
 
 import android.content.Intent;
 import android.os.Handler;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
 import app.fifxiii.Menu;
+import app.fifxiii.PageViewGroup.PageAdapterGroup;
 import app.fifxiii.R;
+import app.fifxiii.ScheduleAdapters.PageViewSchedule.PageAdapterSchedule;
+import me.relex.circleindicator.CircleIndicator;
 
 public class ScheduleActivity extends AppCompatActivity {
 
@@ -23,7 +27,11 @@ public class ScheduleActivity extends AppCompatActivity {
         menu = new Menu(this);
         /** -- AND DOWN THERE -- **/
 
-        // TODO page view navigation
+        // page viewr
+        ViewPager pageView = (ViewPager) findViewById(R.id.viewpagerSchedule);
+        CircleIndicator indicator = (CircleIndicator) findViewById(R.id.indicatorSchedule);
+        pageView.setAdapter(new PageAdapterSchedule(this));
+        indicator.setViewPager(pageView);
     }
 
     /** ----  COPY IT ALL! ---- **/
